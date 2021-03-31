@@ -19,8 +19,9 @@ function HomeScreen({ history }) {
                 <Card.Text>Last updated 3 mins ago</Card.Text>
               </Card.ImgOverlay>
             </Card>
+            <br />
             <Row>
-                <Col md={9}>
+                <Col md={9} >
                   <Card className="mb-2">
                     <Card.Body>
                       <Card.Title>Utoaji wa elimu</Card.Title>
@@ -52,29 +53,29 @@ function HomeScreen({ history }) {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col md={3}>
+                <Col md={3} >
                   <Row>
-                    <Card>
+                    <Card style={{ width: '100%' }}>
                       <Card.Header className="bg-info">Downloads</Card.Header>
                       
                         <ul class="list-group">
-                          <li class="list-group-item">Dapibus ac facilisis in</li>
-                          <li class="list-group-item">Morbi leo risus</li>
-                          <li class="list-group-item">Porta ac consectetur ac</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
+                          <li class="list-group-item">Fomu ya kujiunga bweni (Msingi)</li>
+                          <li class="list-group-item">Fomu ya kujiunga O-Level</li>
+                          <li class="list-group-item">Fomu ya kujiunga O-Level</li>
+                          <li class="list-group-item">Katiba ya jumuiya</li>
                         </ul>
                     </Card>
                   </Row>
                   <br />
                   <Row>
-                    <Card>
-                      <Card.Header>News</Card.Header>
+                    <Card style={{ width: '100%' }}>
+                      <Card.Header className="bg-info">News</Card.Header>
                       
                         <ul class="list-group">
-                          <li class="list-group-item">Dapibus ac facilisis in</li>
-                          <li class="list-group-item">Morbi leo risus</li>
-                          <li class="list-group-item">Porta ac consectetur ac</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
+                          <li class="list-group-item">Matokeo CSEE 2020</li>
+                          <li class="list-group-item">Matokeo FTNA 2020</li>
+                          <li class="list-group-item">Matokeo PSLE 2020</li>
+                          <li class="list-group-item">Matokeo Mock Kidato cha 6</li>
                         </ul>
                     </Card>
                   </Row>
