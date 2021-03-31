@@ -34,7 +34,7 @@ function Header() {
 
                             
                                 <NavDropdown title="Elimu" id='username'>
-                                    <LinkContainer to='/nursery'>
+                                    <LinkContainer to='/education/nursery'>
                                         <NavDropdown.Item>Awali</NavDropdown.Item>
                                     </LinkContainer>
                                     <LinkContainer to='/primary'>
