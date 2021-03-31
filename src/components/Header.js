@@ -19,46 +19,46 @@ function Header() {
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <SearchBox />
-                        <Nav className="ml-auto">
+                        
+                        <Nav className="mr-auto">
 
-                            <LinkContainer to='/cart'>
-                                <Nav.Link ><i className="fas fa-shopping-cart"></i>Cart</Nav.Link>
+                            <LinkContainer to='/'>
+                                <Nav.Link >Home</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to='/about'>
+                                <Nav.Link >Kuhusu</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to='/services'>
+                                <Nav.Link >Huduma</Nav.Link>
                             </LinkContainer>
 
                             
                                 <NavDropdown title="Profile" id='username'>
-                                    <LinkContainer to='/profile'>
-                                        <NavDropdown.Item>Profile</NavDropdown.Item>
+                                    <LinkContainer to='/nursery'>
+                                        <NavDropdown.Item>Awali</NavDropdown.Item>
+                                    </LinkContainer>
+                                    <LinkContainer to='/primary'>
+                                        <NavDropdown.Item>Msingi</NavDropdown.Item>
+                                    </LinkContainer>
+                                    <LinkContainer to='/secondary'>
+                                        <NavDropdown.Item>Sekondari</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
+                                    <NavDropdown.Item onClick={logoutHandler}>Msingi</NavDropdown.Item>
 
                                 </NavDropdown>
                             
-                                    <LinkContainer to='/login'>
-                                        <Nav.Link><i className="fas fa-user"></i>Login</Nav.Link>
+                                    <LinkContainer to='/health'>
+                                        <Nav.Link>Afya</Nav.Link>
                                     </LinkContainer>
-                              
+                                    
+                        </Nav>
+                        <SearchBox /> 
+                        <Nav>
 
-
-                            
-                                <NavDropdown title='Admin' id='adminmenue'>
-                                    <LinkContainer to='/admin/userlist'>
-                                        <NavDropdown.Item>Users</NavDropdown.Item>
-                                    </LinkContainer>
-
-                                    <LinkContainer to='/admin/productlist'>
-                                        <NavDropdown.Item>Products</NavDropdown.Item>
-                                    </LinkContainer>
-
-                                    <LinkContainer to='/admin/orderlist'>
-                                        <NavDropdown.Item>Orders</NavDropdown.Item>
-                                    </LinkContainer>
-
-                                </NavDropdown>
-                           
-
+                            <LinkContainer to='/contact'>
+                                <Nav.Link ><i className="fas fa-shopping-cart"></i>Wasiliana</Nav.Link>
+                            </LinkContainer>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
