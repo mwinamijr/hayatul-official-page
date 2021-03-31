@@ -33,7 +33,7 @@ function Header() {
                             </LinkContainer>
 
                             
-                                <NavDropdown title="Profile" id='username'>
+                                <NavDropdown title="Elimu" id='username'>
                                     <LinkContainer to='/nursery'>
                                         <NavDropdown.Item>Awali</NavDropdown.Item>
                                     </LinkContainer>
@@ -44,7 +44,7 @@ function Header() {
                                         <NavDropdown.Item>Sekondari</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <NavDropdown.Item onClick={logoutHandler}>Msingi</NavDropdown.Item>
+                                    <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
 
                                 </NavDropdown>
                             

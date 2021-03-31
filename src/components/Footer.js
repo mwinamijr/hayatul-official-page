@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function Footer() {
     return (
-        <footer>
-            <Container className="bg-info">
+        <footer className="bg-secondary">
+            <Container className="">
                 
                 <Row>
                   <Col className="mt-2">
@@ -28,10 +28,10 @@ function Footer() {
                   <h6>Login</h6>
                   <input />
                   <input />
-                  <input className="btn btn-success" value="Login" />
+                  <input className="btn btn-info" value="Login" />
                   </Col>
                 </Row>
-                <Row >
+                <Row>
                     <Col className="text-center py-3">Copyright &copy; TechDomeTZ</Col>
                 </Row>
             </Container>
