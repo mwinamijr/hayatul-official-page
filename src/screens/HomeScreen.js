@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col, Card } from 'react-bootstrap'
+import { Row, Col, Card, Carousel } from 'react-bootstrap'
 import HomeCarousel from '../components/Carousel'
 
 
@@ -8,17 +8,8 @@ function HomeScreen({ history }) {
   
     return (
         <div>
-            <Card className="bg-dark text-white">
-              <Card.Img src="http://127.0.0.1:8000/media/carousel/20200921_093334.jpg" alt="Card image" />
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
-            </Card>
+
+          <HomeCarousel />
             <br />
             <Row>
                 <Col md={9} >

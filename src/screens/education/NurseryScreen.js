@@ -9,48 +9,71 @@ function NurseryScreen() {
                 <Col>
                   <Image src="http://127.0.0.1:8000/media/nursery/20201128_091608.jpg" fluid />
                   <div class="content">
-                    <h1>Heading</h1>
-                    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+                    <h1>Masomo</h1>
+                    <p>
+                      Wanafunzi wetu wanapata fursa ya kujifunza na kuanza kuzoea mwenendo wa shule kwa kupewa maandalizi yaliyo bora kabisa 
+                      <span>Kimasomo, afya na michezo.</span>
+                    </p>
                   </div>
                 </Col>
                 <Col>
-
+                  <Card>
+                  <Card.Body>
+                    <Card.Title>Malezi</Card.Title>
+                    <Card.Text>
+                        Kuanzia katika umri mdogo kabisa watoto wetu wanafundishwa malezi katika misingi na taratibu za dini ya kiislamu. 
+                        Malezi hayo yanahusisha mifumo yote ya maisha :-
+                    </Card.Text>
+                    <Card.Text>
+                      <ul>
+                        <li>Maisha ya kiislamu</li>
+                        <li>Ibada za kiislamu</li>
+                        <li>Dua mbalimbali</li>
+                      </ul>
+                    </Card.Text>
+                  </Card.Body>
+                  </Card>
                 </Col>
             </Row>
             <Row>
               <Col>
-              
+              <Card>
+                  <Card.Body>
+                    <Card.Title>Michezo</Card.Title>
+                    <Card.Text>
+                        Ili kuwajenga watoto wetu katika afya njema wanapata fursa ya kushiriki katika michezo mablimbali ili kuweza kukuza uwezo 
+                        wao wa kushirikia na wenzao katika kufanya shughuli mbalimbali.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
               </Col>
                 <Col>
                   <Image src="http://127.0.0.1:8000/media/nursery/20201128_091634.jpg" fluid />
                   <div class="content">
-                    <h1>Heading</h1>
-                    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+                    <h1>Kifungua kinywa</h1>
+                    <p>
+                      Pamoja na masomo na malezi bora wanayopatiwa katika shule yetu, pia watoto hawa hupatiwa kifungua kinywa kila siku ili aweze kusoma 
+                      kwa furaha na amani.
+                    </p>
                   </div>
                 </Col>
                 
             </Row>
             <br />
-            <Card className="mb-2">
+            <Card className="mb-2" border="warning">
               <Card.Header>Masomo wanayojifunza</Card.Header>
               <Card.Body>
-              <Card.Title>Elimu ya Mazingira</Card.Title>
-              <Card.Text>
-                  Shule zetu zote zinatoa elimu ya mazingira kwa ufanisi mkubwa bila kuchagua aina ya wanafunzi. Wanafunzi wote ni sawa 
-                  kwenye upande wa elimu bila kujali tofauti zao katika uwezo wao binafsi darasani.
-              </Card.Text>
+                
+                <ol>
+                  <li>Vitendo vya kuhesabu</li>
+                  <li>Vitendo vya kuwasiliana</li>
+                  <li>Kutunza mazingira</li>
+                  <li>Kutunza Afya</li>
+                  <li>Kumudu stadi za kisanii</li>
+                  <li>Malezi ya kiislamu</li>
+                </ol>
               </Card.Body>
               
-              <Card.Body>
-              <Card.Title>Elimu ya Dini</Card.Title>
-              <Card.Text>
-                  Malezi ya watoto wetu yanaanzia chini kabisa wakiwa na umri mdogo ili kuweza kuajenga vijana hawa katika misingi ya dini 
-                  na malezi ili waweze kuwa vijana wema watakaolitumikia taifa lao kwa moyo mmoja
-                  
-                  <p><strong>N.B.</strong></p>
-                  Katika suala la malezi, shule zetu hazichagui dini, hivyo wazazi na wanafunzi wote mnakaribishwa kuja kujifunza hatika shule zetu
-              </Card.Text>
-              </Card.Body>
             </Card>
         </div>
     )
