@@ -11,8 +11,8 @@ function Footer() {
                     <span>Links</span>
                     <ul>
                       <li>HISMS</li>
-                      <li>HISMS</li>
-                      <li>HISMS</li>
+                      <li>Learning App</li>
+                      <li>Tafsir ya Qur-an</li>
                     </ul>
                   </Col>
                   
