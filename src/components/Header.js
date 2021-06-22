@@ -37,19 +37,20 @@ function Header() {
                                     <LinkContainer to='/education/nursery'>
                                         <NavDropdown.Item>Awali</NavDropdown.Item>
                                     </LinkContainer>
-                                    <LinkContainer to='/primary'>
+                                    <LinkContainer to='/education/primary'>
                                         <NavDropdown.Item>Msingi</NavDropdown.Item>
                                     </LinkContainer>
-                                    <LinkContainer to='/secondary'>
+                                    <LinkContainer to='/education/secondary'>
                                         <NavDropdown.Item>Sekondari</NavDropdown.Item>
                                     </LinkContainer>
-
-                                    <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
 
                                 </NavDropdown>
                             
                                     <LinkContainer to='/health'>
                                         <Nav.Link>Afya</Nav.Link>
+                                    </LinkContainer>
+                                    <LinkContainer to='/blog'>
+                                        <Nav.Link>Blogu</Nav.Link>
                                     </LinkContainer>
                                     
                         </Nav>
@@ -68,3 +69,5 @@ function Header() {
 }
 
 export default Header
+
+//<NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
