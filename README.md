@@ -1,45 +1,14 @@
-# Django School Management System
-This an open source school management system API built with Django and Django-rest framework for managing school or college. It provides an API for administration, admission, attendance, schedule and results. It also provide users with different permissions to access various apps depending on their access level.
+#Hayatul Islamiya Complex Official Page
+This is the frontend of the Hayatul Islamiya Complex Institution website page.
 
-Techdometz is a tech startup helping schools and education centers to provide solutions to their tech problems. 
-[Contact us](http://techdometz.com/contact-us/) for details.
+It is made up with React, a JavaScript framework.
+
+Hayatul Islamiya Complex is an islamic institution which is prioritize on providing services to the society. So far they have already managed to provide education for almost 25 years in all educatinal levels accoring to the Education policy of the United Republic of Tanzania. Now they have started new Health Project which will start to provide it's services by 2022 InshaAllah.
+
+[Contact us](http://hayatulislamiyatz.com/contact-us/) for details.
 
 # Quick Install
-You should have at least basic django and django-rest framework experience to run django-scms. We test only in PostgreSQL database.
-
-### Fork the repo
-You first need to fork the repo from [Techdometz](https://github.com/TechDometz/django-scms).
-### Clone the repo
-Clone the forked repo
-
-`git clone https://github.com/[username]/django-scms.git`  
-
-### Create a virtual environment
-
-There are several ways depending on the OS and package you choose. Here's my favorite  
-`sudo apt-get install python3-pip`  
-`pip3 install virtualenv`  
-Then either  
-`python3 -m venv venv`  
-or  
-`python -m venv venv`  
-or  
-`virtualenv venv` (you can call it venv or anything you like)
-
-#### Activate the virtual environment  
-
-in Mac or Linux
-`source venv/bin/activate`  
-in windows
-`venv/Scripts/activate.bat`  
-
-# Apps
-
-##School Information System (SIS)
-This tracks the students’ information and their parent/guardian/contact information. This module also records, basic classes information, and school year information. This is the central module for django-scms and is required for use of any other module. All other modules are optional.
-
-##Admissions
-This tracks potential students and their registration processes. It allows various admission levels to be added as well as steps that need to be completed before moving onto the next level. It also tracks any open houses a student has attended and how the student heard about the school.
+You should have at least basic JavaScript and react framework experience to run react-scms. 
 
 ## Contributors
 
