@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Django School Management System
+This an open source school management system API built with Django and Django-rest framework for managing school or college. It provides an API for administration, admission, attendance, schedule and results. It also provide users with different permissions to access various apps depending on their access level.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Techdometz is a tech startup helping schools and education centers to provide solutions to their tech problems. 
+[Contact us](http://techdometz.com/contact-us/) for details.
 
-## Available Scripts
+# Quick Install
+You should have at least basic django and django-rest framework experience to run django-scms. We test only in PostgreSQL database.
 
-In the project directory, you can run:
+### Fork the repo
+You first need to fork the repo from [Techdometz](https://github.com/TechDometz/django-scms).
+### Clone the repo
+Clone the forked repo
 
-### `yarn start`
+`git clone https://github.com/[username]/django-scms.git`  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Create a virtual environment
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+There are several ways depending on the OS and package you choose. Here's my favorite  
+`sudo apt-get install python3-pip`  
+`pip3 install virtualenv`  
+Then either  
+`python3 -m venv venv`  
+or  
+`python -m venv venv`  
+or  
+`virtualenv venv` (you can call it venv or anything you like)
 
-### `yarn test`
+#### Activate the virtual environment  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+in Mac or Linux
+`source venv/bin/activate`  
+in windows
+`venv/Scripts/activate.bat`  
 
-### `yarn build`
+# Apps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##School Information System (SIS)
+This tracks the students’ information and their parent/guardian/contact information. This module also records, basic classes information, and school year information. This is the central module for django-scms and is required for use of any other module. All other modules are optional.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Admissions
+This tracks potential students and their registration processes. It allows various admission levels to be added as well as steps that need to be completed before moving onto the next level. It also tracks any open houses a student has attended and how the student heard about the school.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributors
 
-### `yarn eject`
+- [Mwinamijr](https://github.com/mwinamijr)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project is licensed under the MIT License
