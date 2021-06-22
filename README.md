@@ -1,4 +1,5 @@
 #Hayatul Islamiya Complex Official Page
+
 This is the frontend of the Hayatul Islamiya Complex Institution website page.
 
 It is made up with React, a JavaScript framework.
