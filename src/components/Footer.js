@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import { Container, Row, Col } from 'react-bootstrap'
 
 function Footer() {
@@ -11,15 +13,15 @@ function Footer() {
                     <span>Links</span>
                     <ul>
                       <li>HISMS</li>
-                      <li>HISMS</li>
-                      <li>HISMS</li>
+                      <li>Learn wit Us!</li>
+                      <li>Tafsiri ya Qur-an</li>
                     </ul>
                   </Col>
                   
                   <Col className="mt-2">
                   <span>Useful Links</span>
                     <ul>
-                      <li>Necta</li>
+                      <li><Link to="https://www.necta.go.tz">Necta</Link></li>
                       <li>Nacte</li>
                       <li>MoEd</li>
                     </ul>
