@@ -20,11 +20,11 @@ import {
 
 
 const reducer = combineReducers({
-    articlesList: articlesListReducer,
-    articlesDetails: articlesDetailsReducer,
-    articlesDelete: articlesDeleteReducer,
-    articlesCreate: articlesCreateReducer,
-    articlesUpdate: articlesUpdateReducer,
+    articleList: articlesListReducer,
+    articleDetails: articlesDetailsReducer,
+    articleDelete: articlesDeleteReducer,
+    articleCreate: articlesCreateReducer,
+    articleUpdate: articlesUpdateReducer,
 
     userLogin: userLoginReducer,
     userRegister: userRegisterReducer,

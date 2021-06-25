@@ -27,7 +27,7 @@ export const listArticles = (keyword = '') => async (dispatch) => {
     try {
         dispatch({ type: ARTICLES_LIST_REQUEST })
 
-        const { data } = await axios.get('http://127.0.0.1:8000/api/ARTICLES/ARTICLES-list')
+        const { data } = await axios.get('http://127.0.0.1:8000/api/administration/articles')
 
         dispatch({
             type: ARTICLES_LIST_SUCCESS,
@@ -45,11 +45,11 @@ export const listArticles = (keyword = '') => async (dispatch) => {
 }
 
 
-export const listArticleSDetails = (id) => async (dispatch) => {
+export const listArticleDetails = (id) => async (dispatch) => {
     try {
         dispatch({ type: ARTICLES_DETAILS_REQUEST })
 
-        const { data } = await axios.get(`http://127.0.0.1:8000/api/ARTICLES/ARTICLES-list/${id}`)
+        const { data } = await axios.get(`http://127.0.0.1:8000/api/administration/articles/${id}`)
 
         dispatch({
             type: ARTICLES_DETAILS_SUCCESS,
@@ -67,7 +67,7 @@ export const listArticleSDetails = (id) => async (dispatch) => {
 }
 
 
-export const deleteArticles = (id) => async (dispatch, getState) => {
+export const deleteArticle = (id) => async (dispatch, getState) => {
     try {
         dispatch({
             type: ARTICLES_DELETE_REQUEST
@@ -85,7 +85,7 @@ export const deleteArticles = (id) => async (dispatch, getState) => {
         }
 
         const { data } = await axios.delete(
-            `http://127.0.0.1:8000/api/ARTICLES/ARTICLES-list/${id}/`,
+            `http://127.0.0.1:8000/api/administration/articles/${id}/`,
             config
         )
 
@@ -107,7 +107,7 @@ export const deleteArticles = (id) => async (dispatch, getState) => {
 
 
 
-export const createArticles = () => async (dispatch, getState) => {
+export const createArticle = () => async (dispatch, getState) => {
     try {
         dispatch({
             type: ARTICLES_CREATE_REQUEST
@@ -125,7 +125,7 @@ export const createArticles = () => async (dispatch, getState) => {
         }
 
         const { data } = await axios.post(
-            `http://127.0.0.1:8000/api/ARTICLES/ARTICLES-list`,
+            `http://127.0.0.1:8000/api/administration/articles`,
             {},
             config
         )
@@ -147,7 +147,7 @@ export const createArticles = () => async (dispatch, getState) => {
 
 
 
-export const updateArticles = (ARTICLES) => async (dispatch, getState) => {
+export const updateArticle = (article) => async (dispatch, getState) => {
     try {
         dispatch({
             type: ARTICLES_UPDATE_REQUEST
@@ -165,8 +165,8 @@ export const updateArticles = (ARTICLES) => async (dispatch, getState) => {
         }
 
         const { data } = await axios.put(
-            `http://127.0.0.1:8000/api/ARTICLES/ARTICLES-list/${id}/`,
-            ARTICLES,
+            `http://127.0.0.1:8000/api/administration/articles/${article.id}/`,
+            article,
             config
         )
         dispatch({
