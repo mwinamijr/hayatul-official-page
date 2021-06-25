@@ -13,7 +13,7 @@ function Footer() {
                     <span>Links</span>
                     <ul>
                       <li>HISMS</li>
-                      <li>Learn wit Us!</li>
+                      <li>Learn with Us!</li>
                       <li>Tafsiri ya Qur-an</li>
                     </ul>
                   </Col>
