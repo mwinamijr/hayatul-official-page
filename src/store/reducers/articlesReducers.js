@@ -32,7 +32,7 @@ export const articlesListReducer = (state = { articles: [] }, action) => {
         case ARTICLES_LIST_SUCCESS:
             return {
                 loading: false,
-                articles: action.payload.articles,
+                articles: action.payload,
                 
             }
 

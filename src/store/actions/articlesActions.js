@@ -34,6 +34,7 @@ export const listArticles = (keyword = '') => async (dispatch) => {
             payload: data
         })
 
+
     } catch (error) {
         dispatch({
             type: ARTICLES_LIST_FAIL,
