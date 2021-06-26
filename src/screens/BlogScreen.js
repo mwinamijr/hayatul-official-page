@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Loader from '../components/Loader'
 import Message from '../components/Message'
 import { listArticles, deleteArticle, createArticle } from '../store/actions/articlesActions'
+import {Image} from 'react-bootstrap'
 
 function BlogScreen({ history, match }) {
 
@@ -11,16 +12,16 @@ function BlogScreen({ history, match }) {
 
   const articleList = useSelector(state => state.articleList)
   const { loading, error, articles } = articleList
-
+  /*
   const articleDelete = useSelector(state => state.articleDelete)
   const { loading: loadingDelete, error: errorDelete, success: successDelete } = articleDelete
 
   const articleCreate = useSelector(state => state.articleCreate)
   const { loading: loadingCreate, error: errorCreate, success: successCreate, article: createdArticle } = articleCreate
+*/
 
   useEffect(() => {
-    dispatch(listArticles)
-    console.log("Articles: ", articleList)
+    dispatch(listArticles())
   }, [dispatch,])
 
   return (
@@ -69,15 +70,10 @@ function BlogScreen({ history, match }) {
         <div className="row g-5">
           <div className="col-md-8">
             <h3 className="pb-4 mb-4 fst-italic border-bottom">
-              From the Firehose
+              Habari mpya
             </h3>
 
-            <div className="blog-post">
-              <h2 className="blog-post-title">Sample blog post</h2>
-              <p className="blog-post-meta">January 1, 2021 by <Link to="#"  >Mark</Link></p>
-
-              <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
-              <hr />
+            <div>
               <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
               <h2>Blockquotes</h2>
               <p>This is an example blockquote in action:</p>

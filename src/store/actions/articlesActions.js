@@ -27,8 +27,8 @@ export const listArticles = (keyword = '') => async (dispatch) => {
     try {
         dispatch({ type: ARTICLES_LIST_REQUEST })
 
-        const { data } = await axios.get('http://127.0.0.1:8000/api/administration/articles')
-
+        const { data } = await axios.get('http://127.0.0.1:8000/api/blog/articles')
+        
         dispatch({
             type: ARTICLES_LIST_SUCCESS,
             payload: data

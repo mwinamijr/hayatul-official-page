@@ -27,12 +27,12 @@ import {
 export const articlesListReducer = (state = { articles: [] }, action) => {
     switch (action.type) {
         case ARTICLES_LIST_REQUEST:
-            return { loading: true, ARTICLES: [] }
+            return { loading: true, articles: [] }
 
         case ARTICLES_LIST_SUCCESS:
             return {
                 loading: false,
-                ARTICLES: action.payload.articles,
+                articles: action.payload.articles,
                 
             }
 
