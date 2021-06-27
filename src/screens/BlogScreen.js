@@ -81,37 +81,42 @@ function BlogScreen({ history, match }) {
                     </h3>
 
                     {articles .map(article => (
-                      <span>
-                        
-                        { (article.image )
-                          ? 
-                            <div className="col-md-12">
-                              <div key={article.id} className="blog-post">
-                                <h2 className="blog-post-title">{ article.title }</h2>
-                                <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
-
-                                <p>{ article.content }</p>
-                              </div>
-                            </div>
-                          :
-                            <div className='row'>
+                      <div>
+                      {
+                        (article.picture) != null
+                          ?
+                          <span>
+                            <div key={article.id} className='row'>
                               <div className="col-md-8">
-                                <div key={article.id} className="blog-post">
+                                <div className="blog-post">
                                   <h2 className="blog-post-title">{ article.title }</h2>
                                   <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
-
+    
                                   <p>{ article.content }</p>
                                 </div>
                               </div>
                               <div className="col-md-4">
-                                <Image src={article.image} />
+                                <Image src={article.picture} alt={article.title} thumbnail />
                               </div>
                               <hr />
                             </div>
-                          
-                        }
-                      </span>
+                          </span>
 
+                          :
+                          <span>
+                            <div key={article.id} className='row'>
+                              <div className="col-md-12">
+                                <div className="blog-post">
+                                  <h2 className="blog-post-title">{ article.title }</h2>
+                                  <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
+    
+                                  <p>{ article.content }</p>
+                                </div>
+                              </div>
+                            </div>
+                          </span>
+                      }
+                      </div>
                     ))}
 
                     <div>
