@@ -110,78 +110,18 @@ function BlogScreen({ history, match }) {
                                   <h2 className="blog-post-title">{ article.title }</h2>
                                   <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
     
-                                  <p>{ article.content }</p>
+                                  <p>{ article.content } <Link to="#">Read more ......</Link></p>
                                 </div>
                               </div>
                             </div>
                           </span>
-                      }
+                      } 
+
                       </div>
                     ))}
 
-                    <div>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <h2>Blockquotes</h2>
-                      <p>This is an example blockquote in action:</p>
-                      <blockquote className="blockquote">
-                        <p>Quoted text goes here.</p>
-                      </blockquote>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <h3>Example lists</h3>
-                      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
-                      <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                      </ul>
-                      <p>And this is an ordered list:</p>
-                      <ol>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                      </ol>
-                      
-                      <h2>Heading</h2>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <h3>Sub-heading</h3>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <pre><code>Example code block</code></pre>
-                      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-                    </div>
-                  
-                  </div>
-                  <div className="col-md-4">
-                    <div className="position-sticky">
-                      <div className="p-4 mb-3 bg-light rounded">
-                        <h4 className="fst-italic">About</h4>
-                        <p className="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
-                      </div>
-
-                      <div className="p-4">
-                        <h4 className="fst-italic">Archives</h4>
-                        <ol className="list-unstyled mb-0">
-                          <li><Link to="#"  >March 2021</Link></li>
-                          <li><Link to="#"  >February 2021</Link></li>
-                          <li><Link to="#"  >January 2021</Link></li>
-                          <li><Link to="#"  >December 2020</Link></li>
-                          <li><Link to="#"  >November 2020</Link></li>
-                        </ol>
-                      </div>
-
-                      <div className="p-4">
-                        <h4 className="fst-italic">Elsewhere</h4>
-                        <ol className="list-unstyled">
-                          <li><Link to="#"  >Instagram</Link></li>
-                          <li><Link to="#"  >Twitter</Link></li>
-                          <li><Link to="#"  >Facebook</Link></li>
-                          <li><Link to="#"  >Youtube</Link></li>
-                        </ol>
-                      </div>
-                    </div>
                   </div>
                 </div>
-
-
               </div>
           )}
     </div>

@@ -21,8 +21,8 @@ import {
 
 const reducer = combineReducers({
     articleList: articlesListReducer,
-    /*
     articleDetails: articlesDetailsReducer,
+    /*
     articleDelete: articlesDeleteReducer,
     articleCreate: articlesCreateReducer,
     articleUpdate: articlesUpdateReducer,
