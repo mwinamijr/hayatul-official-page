@@ -7,8 +7,15 @@ function NurseryScreen() {
         <div>
           <div className="px-4 my-5 text-center border-bottom">
             <h3 className="display-4 fw-bold">Hayatul Islamiya Shule ya Awali(HISA)</h3>
-            <div className="col-lg-6 mx-auto">
-              <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div className="col-lg-8 mx-auto">
+              <p className="lead mb-4">
+                Shule ya Awali Hayatul islamiya ni shule bora kabisa inayofundisha na kuwaandaa watoto kuwa tayari kuanza elimu yao ya msingi kwa mafanikio makubwa.
+                Kama ilivyo katika dhamira yetu, tunawalea na kwafundisha watoto wetu kwa <b>misingi na taratibu za dini ya kiislamu.</b> <br />
+              </p>
+              <p className="text-white rounded bg-dark">
+                <strong>Lugha yetu kuu ya kufundishia ni <em>Kiswahili</em></strong>
+
+              </p>
             </div>
           </div>
             <Row>
@@ -67,7 +74,7 @@ function NurseryScreen() {
               </Col>
                 <Col>
                 <Row>
-                  <Image src="http://127.0.0.1:8000/media/nursery/20201128_091634.jpg" fluid />
+                  <Image src="http://127.0.0.1:8000/images/nursery/20201128_091634.jpg" fluid />
                   </Row>
                   <Row>
                   <div className="content">

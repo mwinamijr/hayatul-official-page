@@ -61,23 +61,92 @@ function ServicesScreen() {
         </Card.Body>
         
         <Card.Body>
-        <Card.Title>Gharama za kituo</Card.Title>
+          <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h3 className="display-4 fw-normal">Gharama zetu</h3>
+            <p className="fs-5 text-muted">
+              Gharama za kituo ni kama ifuatavyo <br />
+              <em>(Gharama za mtihani zinalipiwa BARAZA la Mitihani wakati wa kujisajili )</em>
+            </p>
+          </div>
         <Card.Text>
-        <Table striped bordered hover>
-          <tbody>
-            <tr>
-              <td>Masomo ya Sayansi</td>
-              <td>Tsh 50,000</td>
-            </tr>
-            <tr>
-              <td>Masomo ya Sanaa</td>
-              <td>Tsh 30,000</td>
-              
-            </tr>
-          </tbody>
-        </Table>
+          <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div className="col">
+              <div className="card mb-4 rounded-3 shadow-sm">
+                <div className="card-header py-3">
+                  <h4 className="my-0 fw-normal">QT</h4>
+                </div>
+                <div className="card-body">
+                  <h1 className="card-title pricing-card-title"><small>Tsh 20000/-</small></h1>
+                  <ul className="list-unstyled mt-3 mb-4">
+                    <li>Gharama ya kituo</li>
+                    <li>(Fedha ya mtihani inalipwa peke yake - NECTA)</li>
+                    <li><i><b>Ths 20,000/-</b></i></li>
+                  </ul>
+                  <button type="button" className="w-100 btn btn-lg btn-outline-primary">Wasiliana nasi</button>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card mb-4 rounded-3 shadow-sm">
+                <div className="card-header py-3">
+                  <h4 className="my-0 fw-normal">Arts</h4>
+                </div>
+                <div className="card-body">
+                  <h1 className="card-title pricing-card-title"><small>Tsh 30000/-</small></h1>
+                  <ul className="list-unstyled mt-3 mb-4">
+                  <li>Gharama ya kituo</li>
+                    <li>(Fedha ya mtihani inalipwa peke yake - NECTA)</li>
+                    <li><i><b>Ths 50,000/-</b></i></li>
+                  </ul>
+                  <button type="button" className="w-100 btn btn-lg btn-outline-primary">Wasiliana nasi</button>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card mb-4 rounded-3 shadow-sm">
+                <div className="card-header py-3">
+                  <h4 className="my-0 fw-normal">Science</h4>
+                </div>
+                <div className="card-body">
+                  <h1 className="card-title pricing-card-title"><small>Tsh 50000/-</small></h1>
+                  <ul className="list-unstyled mt-3 mb-4">
+                  <li>Gharama ya kituo</li>
+                    <li>(Fedha ya mtihani inalipwa peke yake - NECTA)</li>
+                    <li><i><b>Ths 50,000/-</b></i></li>
+                  </ul>
+                  <button type="button" className="w-100 btn btn-lg btn-outline-primary">Wasiliana nasi</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Card.Text>
+        <Card.Text>
+          
+          <h2 className="display-6 text-center mb-4">JUMLA YA GHARAMA</h2>
+
+          <div className="table-responsive">
+            <table className="table text-center">
+              <thead>
+                <tr>
+                  <th ></th>
+                  <th >QT</th>
+                  <th >Arts</th>
+                  <th >Science</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" className="text-start">Jumla</th>
+                  <td>Tsh 40,000/-</td>
+                  <td>Tsh 80,000/-</td>
+                  <td>Tsh 100,000/-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </Card.Text>
         </Card.Body>
+
       </Card>
     </div>
     )
