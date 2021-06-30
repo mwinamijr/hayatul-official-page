@@ -14,7 +14,7 @@ function NurseryScreen() {
             <Row>
                 <Col>
                   <Row>
-                  <Image src="http://127.0.0.1:8000/media/nursery/20201128_091608.jpg" fluid />
+                  <Image src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" fluid />
                   </Row>
                   <Row>
                   <div className="content">

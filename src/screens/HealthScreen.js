@@ -17,7 +17,7 @@ function HealthScreen() {
             </div>
             <Row>
                 <Col>
-                <Image src="http://127.0.0.1:8000/media/nursery/20201128_091608.jpg" fluid />
+                <Image src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" fluid />
                 </Col>
                 <Col>
                 <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>

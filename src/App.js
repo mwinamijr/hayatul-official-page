@@ -2,6 +2,11 @@ import { Container } from 'react-bootstrap'
 import { HashRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+
+import LongerPost from './components/blog/LongerPost'
+import EdProgramPost from './components/blog/EdProgram'
+import HealthProgram from './components/blog/HealthProgram'
+
 import HomeScreen from './screens/HomeScreen'
 import LoginScreen from './screens/LoginScreen'
 import RegisterScreen from './screens/RegisterScreen'
@@ -27,7 +32,9 @@ function App() {
           <Route path='/services' component={ServicesScreen} /> {}
           <Route path='/health' component={HealthScreen} />{}
           <Route path='/blog' component={BlogScreen} />{}
-          <Route path='/blog/:id' component={BlogDetailsScreen} />{}
+          <Route path='/longer-post' component={LongerPost} />{}
+          <Route path='/ed-program' component={EdProgramPost} />{}
+          <Route path='/health-program' component={HealthProgram} />{}
           <Route path='/education/nursery' component={NurseryScreen} />{}
           <Route path='/education/primary' component={PrimaryScreen} />{}
           <Route path='/education/secondary' component={SecondaryScreen} />{}
