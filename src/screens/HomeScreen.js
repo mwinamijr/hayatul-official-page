@@ -17,7 +17,7 @@ function HomeScreen({ history }) {
                   <Card.Body>
                     <Card.Title>Utoaji wa elimu</Card.Title>
                     <Card.Text>
-                      Taasisi ya hayatul Islamiya Complex imajikita katika utoaji wa elimu kwa ngazi zote tangu mwaka 1998. 
+                      Taasisi ya hayatul Islamiya Complex imejikita katika utoaji wa elimu kwa ngazi zote tangu mwaka 1998. 
                       Hayatul Islamiya Complex hadi kufika sasa tunatoa huduma ya elimu kuanzia Elimu ya Awali hadi kufikia kidato cha sita. 
                       Utoaji wa elimu hii unafuata mitaala ya serikali katika ngazi zote.
                     </Card.Text>

@@ -6,7 +6,9 @@ function AboutScreen() {
     return (
         <div>
           <Card className="mb-2">
-          <Card.Header>Taasisi ya Hayatul Islamiya Complex</Card.Header>
+          <Card.Header>
+          <h3 className=" text-center display-4 fw-normal">Taasisi ya Hayatul Islamiya Complex</h3>
+          </Card.Header>
             <Card.Body>
               <Card.Title>Taasisi na Madhumuni</Card.Title>
               <Card.Text>
@@ -27,7 +29,9 @@ function AboutScreen() {
           
           
           <Card className="mb-2">
-            <Card.Header>Jumuiya ya Hayatul Islamiya Complex</Card.Header>
+            <Card.Header>
+              <h3 className=" text-center display-4 fw-normal">Jumuiya ya Hayatul Islamiya Complex</h3>
+            </Card.Header>
             <Card.Body>
               <Card.Title>Muundo</Card.Title>
               <Card.Text>
@@ -59,7 +63,9 @@ function AboutScreen() {
 
 
           <Card className="mb-2">
-            <Card.Header>Uongozi wa Jumuiya ya Hayatul Islamiya Complex</Card.Header>
+            <Card.Header>
+              <h3 className=" text-center display-4 fw-normal">Uongozi wa Jumuiya ya Hayatul Islamiya Complex</h3>
+            </Card.Header>
             <Card.Body>
               <Row>
                 <Col>
