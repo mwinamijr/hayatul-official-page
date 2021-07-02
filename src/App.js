@@ -18,6 +18,7 @@ import BlogDetailsScreen from './screens/BlogDetailScreen'
 import NurseryScreen from './screens/education/NurseryScreen'
 import PrimaryScreen from './screens/education/PrimaryScreen'
 import SecondaryScreen from './screens/education/SecondaryScreen'
+import ContactScreen from './screens/ContactScreen'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path='/services' component={ServicesScreen} /> {}
           <Route path='/health' component={HealthScreen} />{}
           <Route path='/blog' component={BlogScreen} />{}
+          <Route path='/contact-us' component={ContactScreen} />{}
           <Route path='/longer-post' component={LongerPost} />{}
           <Route path='/ed-program' component={EdProgramPost} />{}
           <Route path='/health-program' component={HealthProgram} />{}

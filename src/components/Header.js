@@ -57,7 +57,7 @@ function Header() {
                         <SearchBox /> 
                         <Nav>
 
-                            <LinkContainer to='/contact'>
+                            <LinkContainer to='/contact-us'>
                                 <Nav.Link ><i className="fas fa-shopping-cart"></i>Wasiliana</Nav.Link>
                             </LinkContainer>
                         </Nav>
