@@ -127,6 +127,45 @@ function BlogScreen({ history, match }) {
                     ))}
 
                   </div>
+
+                  <div className="col-md-4">
+                    <div className="position-sticky">
+                      <div className="p-4 mb-3 bg-light rounded">
+                        <h4 className="fst-italic">Kuhusu Blogu</h4>
+                        <p className="mb-0">
+                          Hapa utapata habari mpya zinazohusu Taasisi ya Hayatul Islamiya Complex. Habari hizo zitahusiana na Elimu, Afya na yote yale yanayojiri hapa Hayatul.
+                        </p>
+                      </div>
+
+                      <div className="p-4">
+                        <h4 className="fst-italic">Archives</h4>
+                        <ol className="list-unstyled mb-0">
+                          <li><Link to="#">March 2021</Link></li>
+                          <li><Link to="#">February 2021</Link></li>
+                          <li><Link to="#">January 2021</Link></li>
+                          <li><Link to="#">December 2020</Link></li>
+                          <li><Link to="#">November 2020</Link></li>
+                          <li><Link to="#">October 2020</Link></li>
+                          <li><Link to="#">September 2020</Link></li>
+                          <li><Link to="#">August 2020</Link></li>
+                          <li><Link to="#">July 2020</Link></li>
+                          <li><Link to="#">June 2020</Link></li>
+                          <li><Link to="#">May 2020</Link></li>
+                          <li><Link to="#">April 2020</Link></li>
+                        </ol>
+                      </div>
+
+                      <div className="p-4">
+                        <h4 className="fst-italic">Elsewhere</h4>
+                        <ol className="list-unstyled">
+                          <li><Link to="#">Youtube</Link></li>
+                          <li><Link to="#">Instagram</Link></li>
+                          <li><Link to="#">Twitter</Link></li>
+                          <li><Link to="#">Facebook</Link></li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
           )}
