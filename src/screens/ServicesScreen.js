@@ -6,7 +6,14 @@ function ServicesScreen() {
     return (
     <div>
       <Card className="mb-2">
-        <Card.Header>Elimu</Card.Header>
+        <Card.Header><h3 className=" text-center display-4 fw-normal">Elimu</h3></Card.Header>
+        <Card.Body>
+          <Card.Title>Utangulizi</Card.Title>
+          Shule yetu inatoa elimu kwa watoto wote bila ubaguzi wa aina yeyote. Shule zetu zinaruhusu wanafunzi <strong>wa dini zote bila kujali dhehebu.</strong> <br />
+          Pamoja na kuruhusu uwepo wa wanafunzi wa dini zote, shule zetu zote <strong>zinaongozwa kwa kufuata taratibu na misingi yote ya dini ya kiislamu</strong>. Taratibu hizi
+          zinajumuisha <i>wanafunzi, waalimu na wafanyakazi wote</i> wanaopatikana katika mazingira ya Hayatul Islamiya
+          
+        </Card.Body>
         <Card.Body>
         <Card.Title>Elimu ya Mazingira</Card.Title>
         <Card.Text>
@@ -28,7 +35,9 @@ function ServicesScreen() {
       </Card>
 
       <Card className="mb-2">
-        <Card.Header>Afya</Card.Header>
+        <Card.Header>
+          <h3 className=" text-center display-4 fw-normal">Afya</h3>
+        </Card.Header>
         <Card.Body>
         <Card.Title>Huduma zikazotolewa </Card.Title>
         <Card.Text>
@@ -45,7 +54,9 @@ function ServicesScreen() {
       </Card>
 
       <Card className="mb-2">
-        <Card.Header>QT na Resitors</Card.Header>
+        <Card.Header>
+          <h3 className=" text-center display-4 fw-normal">QT na Resitors</h3>
+        </Card.Header>
         <Card.Body>
         <Card.Title>QT</Card.Title>
         <Card.Text>
@@ -110,7 +121,7 @@ function ServicesScreen() {
                 <div className="card-body">
                   <h1 className="card-title pricing-card-title"><small>Tsh 50000/-</small></h1>
                   <ul className="list-unstyled mt-3 mb-4">
-                  <li>Gharama ya kituo</li>
+                  <li>Gharama ya kituo + Practicals</li>
                     <li>(Fedha ya mtihani inalipwa peke yake - NECTA)</li>
                     <li><i><b>Ths 50,000/-</b></i></li>
                   </ul>
