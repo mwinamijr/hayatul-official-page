@@ -24,8 +24,7 @@ function SecondaryScreen() {
                 <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
                 <Card.Body>
                 <Card.Text className="text-center">
-                    This is a longer card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
+                    Waalimu wenye sifa zilizo bora.
                 </Card.Text>
                 </Card.Body>
               </Card>
@@ -75,8 +74,7 @@ function SecondaryScreen() {
                 <Card>
                   <Card.Body>
                   <Card.Text className="text-center">
-                      This is a longer card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.
+                      Stara na mavazi ya kiislamu.
                   </Card.Text>
                   </Card.Body>
                   <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
@@ -118,6 +116,28 @@ function SecondaryScreen() {
             </Card.Body>
             
           </Card>
+          <Row>
+            <Col md={6}>
+              <Card>
+                <Card.Body>
+                <Card.Text className="text-center">
+                   Mazingira yanayovutia kwa masomo.
+                </Card.Text>
+                </Card.Body>
+                <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+              </Card>
+            </Col>
+            <Col md={6}>
+              <Card>
+                <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                <Card.Body>
+                <Card.Text className="text-center">
+                    Ibada ni kipaumbele kwa vijana wa kiislamu.
+                </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
           <br />
           <Card className="mb-2" border="info">
             <Card.Header>Combination za A-Level</Card.Header>
