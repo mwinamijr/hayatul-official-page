@@ -14,37 +14,37 @@ function HomeCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/carousel/20200921_093334.jpg"
+          src="/images/carousel/carousel001.png"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Maabara za sayansi</h3>
+          <p>Baadhi ya wanafunzi wakiwa katika practicals.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/carousel/20200921_093729.jpg"
+          src="/images/carousel/carousel002.png"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Ukaribu kwa wanafunzi</h3>
+          <p>Mkuu wa shule akiwa katika picha ya pamoja na baadhi ya wanafunzi wa kike.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/carousel/20200918_100730.jpg"
+          src="/images/carousel/carousel003.png"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Mazingira rafiki</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Mazingira yanayopendeza na kuvutia kwa wanajamii wote.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

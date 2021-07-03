@@ -22,7 +22,7 @@ function PrimaryScreen() {
           <Row>
             <Col md={6}>
               <Card>
-                <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                <Card.Img variant="top" src="images/primary001.png" />
                 <Card.Body>
                 <Card.Title>Card title that wraps to a new line</Card.Title>
                 <Card.Text>
@@ -83,7 +83,7 @@ function PrimaryScreen() {
                       additional content. This content is a little bit longer.
                   </Card.Text>
                   </Card.Body>
-                  <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                  <Card.Img variant="top" src="images/primary004.png" />
                 </Card>
               </Col>
               

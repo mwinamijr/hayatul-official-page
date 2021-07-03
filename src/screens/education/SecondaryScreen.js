@@ -21,10 +21,10 @@ function SecondaryScreen() {
           <Row>
             <Col md={6}>
               <Card>
-                <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                <Card.Img variant="top" src="images/secondary001.png" />
                 <Card.Body>
                 <Card.Text className="text-center">
-                    Waalimu wenye sifa zilizo bora.
+                    <i>Ziara za kimafunzo ni muhimu ili kuwaongezea ujuzi zaidi wanafunzi.</i>
                 </Card.Text>
                 </Card.Body>
               </Card>
@@ -74,10 +74,10 @@ function SecondaryScreen() {
                 <Card>
                   <Card.Body>
                   <Card.Text className="text-center">
-                      Stara na mavazi ya kiislamu.
+                      <i>Stara na mavazi ya kiislamu yanahimizwa kwani yanavutia na kupendeza.</i>
                   </Card.Text>
                   </Card.Body>
-                  <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                  <Card.Img variant="top" src="images/secondary003.png" />
                 </Card>
               </Col>
               
@@ -121,18 +121,18 @@ function SecondaryScreen() {
               <Card>
                 <Card.Body>
                 <Card.Text className="text-center">
-                   Mazingira yanayovutia kwa masomo.
+                   <i>Mazingira mazuri na yanayovutia kwa masomo bora kwa wanafunzi wetu.</i>
                 </Card.Text>
                 </Card.Body>
-                <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                <Card.Img variant="top" src="images/secondary002.png" />
               </Card>
             </Col>
             <Col md={6}>
               <Card>
-                <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                <Card.Img variant="top" src="images/secondary004.png" />
                 <Card.Body>
                 <Card.Text className="text-center">
-                    Ibada ni kipaumbele kwa vijana wa kiislamu.
+                <i>Stara na mavazi ya kiislamu yanahimizwa kwani yanavutia na kupendeza.</i>
                 </Card.Text>
                 </Card.Body>
               </Card>

@@ -26,7 +26,14 @@ function HealthScreen() {
           </div>
           <Row>
               <Col md={6}>
-              <Image src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" fluid />
+                <Card>
+                  <Card.Img variant="top" src="images/afya001.png" />
+                  <Card.Body>
+                    <Card.Text>
+                    <i>Vijana wa shule ya sekodari hayatul wakijitolea katika upangaji wa tanuri la Kituo cha Afya</i>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
               </Col>
               <Col md={6}>
               <p className="lead mb-4 text-justify">
@@ -58,10 +65,10 @@ function HealthScreen() {
               <Card>
                 <Card.Body>
                   <Card.Text className="text-center">
-                      This is a longer card with supporting text below as a natural lead-in to
+                      <i>Vijana wa shule ya sekodari hayatul wakijitolea katika upangaji wa tanuri la Kituo cha Afya</i>
                   </Card.Text>
                   </Card.Body>
-                  <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+                  <Card.Img variant="top" src="images/afya002.png" />
                
               </Card>
             </Col>
