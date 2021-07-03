@@ -29,7 +29,7 @@ function ServicesScreen() {
             na malezi ili waweze kuwa vijana wema watakaolitumikia taifa lao kwa moyo mmoja
             
             <p><strong>N.B.</strong></p>
-            Katika suala la malezi, shule zetu hazichagui dini, hivyo wazazi na wanafunzi wote mnakaribishwa kuja kujifunza hatika shule zetu
+            Katika suala la malezi, shule zetu hazichagui dini, hivyo wazazi wote mnakaribishwa kuwaleta wanafunzi wote kuja kujifunza katika shule zetu
         </Card.Text>
         </Card.Body>
       </Card>

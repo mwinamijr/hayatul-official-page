@@ -19,6 +19,9 @@ import NurseryScreen from './screens/education/NurseryScreen'
 import PrimaryScreen from './screens/education/PrimaryScreen'
 import SecondaryScreen from './screens/education/SecondaryScreen'
 import ContactScreen from './screens/ContactScreen'
+import Finance from './screens/health/Finance'
+import ProgressScreen from './screens/health/ProgressScreen'
+import NextProgress from './screens/health/NextProgress'
 
 function App() {
   return (
@@ -31,7 +34,6 @@ function App() {
           <Route path='/register' component={RegisterScreen} /> {}
           <Route path='/about' component={AboutScreen} /> {}
           <Route path='/services' component={ServicesScreen} /> {}
-          <Route path='/health' component={HealthScreen} />{}
           <Route path='/blog' component={BlogScreen} />{}
           <Route path='/contact-us' component={ContactScreen} />{}
           <Route path='/longer-post' component={LongerPost} />{}
@@ -40,6 +42,11 @@ function App() {
           <Route path='/education/nursery' component={NurseryScreen} />{}
           <Route path='/education/primary' component={PrimaryScreen} />{}
           <Route path='/education/secondary' component={SecondaryScreen} />{}
+
+          <Route path='/health' component={HealthScreen} />{}
+          <Route path='/heal/finance' component={Finance} />{}
+          <Route path='/heal/progress' component={ProgressScreen} />{}
+          <Route path='/heal/next' component={NextProgress} />{}
           
         </Container>
       </main>
