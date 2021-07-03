@@ -52,6 +52,9 @@ function Header() {
                                     <LinkContainer to='/blog'>
                                         <Nav.Link>Blogu</Nav.Link>
                                     </LinkContainer>
+                                    <LinkContainer to='/gallery'>
+                                        <Nav.Link>Picha</Nav.Link>
+                                    </LinkContainer>
                                     
                         </Nav>
                         <SearchBox /> 

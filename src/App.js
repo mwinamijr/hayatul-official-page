@@ -22,6 +22,7 @@ import ContactScreen from './screens/ContactScreen'
 import Finance from './screens/health/Finance'
 import ProgressScreen from './screens/health/ProgressScreen'
 import NextProgress from './screens/health/NextProgress'
+import GalleryScreen from './screens/GalleryScreen'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path='/services' component={ServicesScreen} /> {}
           <Route path='/blog' component={BlogScreen} />{}
           <Route path='/contact-us' component={ContactScreen} />{}
+          <Route path='/gallery' component={GalleryScreen} />{}
           <Route path='/longer-post' component={LongerPost} />{}
           <Route path='/ed-program' component={EdProgramPost} />{}
           <Route path='/health-program' component={HealthProgram} />{}
