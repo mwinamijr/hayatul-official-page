@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Message from '../../components/Message'
 
 
 function Finance() {
@@ -12,7 +13,7 @@ function Finance() {
                 <div className="col-md-10 px-0">
                     <h1 className="display-4 fst-italic">Mapato na Matumizi</h1>
                     <p className="lead my-3">M
-                    Money
+                    <Message variant="danger">Taarifa hizi zitawekwa muda mfupi ujao</Message>
                     </p>
                     
                 </div>

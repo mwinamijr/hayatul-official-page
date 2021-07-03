@@ -20,7 +20,7 @@ function PrimaryScreen() {
         </div>
         
           <Row>
-            <Col md={4}>
+            <Col md={6}>
               <Card>
                 <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
                 <Card.Body>
@@ -33,7 +33,7 @@ function PrimaryScreen() {
               </Card>
             </Col>
 
-            <Col md={4}>
+            <Col md={6}>
               <Card>
                 <Card.Body>
                   <Card.Title>Malezi</Card.Title>
@@ -58,7 +58,7 @@ function PrimaryScreen() {
           </Row>
           <hr />
           <Row>
-            <Col md={4}>
+            <Col md={6}>
               <Card>
                 <Card.Body>
                   <Card.Title>Masomo</Card.Title>
@@ -73,7 +73,7 @@ function PrimaryScreen() {
               </Card>
             </Col>
             
-              <Col md={4}>
+              <Col md={6}>
                 <Card>
                   
                   <Card.Body>
@@ -93,7 +93,7 @@ function PrimaryScreen() {
             <Card.Header>Masomo wanayojifunza</Card.Header>
             <Card.Body>
               <Row>
-                <Col md={4}>
+                <Col md={6}>
                   <ol>
                     <li>Elimu ya dini ya Kiislamu</li>
                     <li>Lugha ya Kiarabu</li>
@@ -101,7 +101,7 @@ function PrimaryScreen() {
                     <li>Hifdhul Qur-an</li>
                   </ol>
                 </Col>
-                <Col md={4}>
+                <Col md={6}>
                   <ol>
                     <li>Hesabu</li>
                     <li>Sayansi</li>

@@ -18,11 +18,9 @@ function HealthScreen() {
             </div>
               <p className="text-white rounded bg-dark">
                 <h5 className="display-4 fw-bold">Changia Ujenzi wa Hospitali hapa</h5>
-                <h5 className="text-center text-danger">BENKI NMB:</h5>
+                <h5 className="text-center text-info">BENKI NBC: 072206006583 JINA: UJENZI WA KITO CHA AFYA HIC</h5>
                 <div className="text-center"> 
-                  <span className="text-danger">Airtel Money: </span> 
-                  <span className="text-info">Tigo Pesa:</span>
-                  <span className="text-warning">Halo Pesa:</span>
+                  <span className="text-warning">Halo Pesa: 0622 977 536  Jina: Hussein Mwinami</span>
                 </div>
               </p>
           </div>
@@ -37,10 +35,40 @@ function HealthScreen() {
               </p>
               <p className="text-center display-4 text-success"><strong>Dawa na Da`awa</strong></p>
               </Col>
+          </Row> <br />
+          <Row>
+            <Col>
+              <Card className="mb-2">
+                <Card.Body>
+                <Card.Title>Huduma zikazotolewa </Card.Title>
+                <Card.Text>
+                    <ol>
+                      <li>Kliniki ya Mama na Mtoto</li>
+                      <li>Huduma ya matibabu ya nje (OUTPATIENTS)</li>
+                      <li>Huduma ya kulaza wagonjwa (INPATIENTs)</li>
+                      <li>Matibabu ya Meno, macho na koo (ENT)</li>
+                      <li>Upasuaji mdogo (Surgery)</li>
+                    </ol>
+                </Card.Text>
+                </Card.Body>
+                
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Body>
+                  <Card.Text className="text-center">
+                      This is a longer card with supporting text below as a natural lead-in to
+                  </Card.Text>
+                  </Card.Body>
+                  <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
+               
+              </Card>
+            </Col>
           </Row>
           <Row>
             <div className="container px-4 py-5" id="featured-3">
-              <h2 className="pb-2 border-bottom">Columns with icons</h2>
+              <h2 className="pb-2 border-bottom">Taarifa za wazi - Hayatul Islamiya Health Center</h2>
               <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div className="feature col">
                   <div className="feature-icon bg-primary bg-gradient">

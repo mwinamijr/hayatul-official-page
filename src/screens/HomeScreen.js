@@ -8,7 +8,15 @@ function HomeScreen({ history }) {
   
     return (
         <div>
-          <marquee behavior="scroll" direction="left">Hayatul Islamiya Complex</marquee>
+          <div className="mb-2 p-2 border rounded">
+            <marquee behavior="scroll" direction="left">
+              <h3>
+              Changia ujenzi wa Hayatul Islamiya Complex Health Cente: 
+              <span className="text-center text-info">    BENKI NBC: 072206006583 JINA: UJENZI WA KITUO CHA AFYA HIC;   </span>
+              <span className="text-warning">    Halo Pesa: 0622 977 536  Jina: Husseni Mwinami</span>
+              </h3>
+            </marquee>
+          </div>
           <HomeCarousel />
           <br />
           <Row>

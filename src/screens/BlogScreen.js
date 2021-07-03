@@ -37,7 +37,7 @@ function BlogScreen({ history, match }) {
                   <div className="col-md-6 px-0">
                     <h1 className="display-4 fst-italic">Title of a longer featured blog post</h1>
                     <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-                    <p className="lead mb-0"><Link to="/longer-post/"   className="text-white fw-bold">Continue reading...</Link></p>
+                    <p className="lead mb-0"><Link to="/longer-post/"   className="text-white fw-bold">Soma zaidi...</Link></p>
                   </div>
                   <div className="col-md-5 px-o">
                   <Image src="images/hic-logo.png" alt="hayatul complex logo" className="float-right" width="300" thumbnail />
@@ -52,7 +52,7 @@ function BlogScreen({ history, match }) {
                         <h3 className="mb-0">Mkakati wa elimu</h3>
                         <div className="mb-1 text-muted">June 30, 2021</div>
                         <p className="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        <Link to="/ed-program/"   className="stretched-link">Continue reading</Link>
+                        <Link to="/ed-program/"   className="stretched-link">Soma zaidi ...</Link>
                       </div>
                       <div className="col-auto d-none d-lg-block">
                         <div className="row">
@@ -69,7 +69,7 @@ function BlogScreen({ history, match }) {
                         <h3 className="mb-0">Ujenzi wa zahanati</h3>
                         <div className="mb-1 text-muted">Nov 11, 2020</div>
                         <p className="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        <Link to="/health-program/"   className="stretched-link">Continue reading</Link>
+                        <Link to="/health-program/"   className="stretched-link">Soma zaidi ...</Link>
                       </div>
                       <div className="col-auto d-none d-lg-block">
                       <div className="row">
@@ -98,7 +98,7 @@ function BlogScreen({ history, match }) {
                                   <h2 className="blog-post-title">{ article.title }</h2>
                                   <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
     
-                                  <p>{ article.content }</p>
+                                  <p>{ article.content } <Link to="#">Soma zaidi ...</Link></p>
                                 </div>
                               </div>
                               <div className="col-md-4">
@@ -116,7 +116,7 @@ function BlogScreen({ history, match }) {
                                   <h2 className="blog-post-title">{ article.title }</h2>
                                   <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
     
-                                  <p>{ article.content } <Link to="#">Read more ......</Link></p>
+                                  <p>{ article.content } <Link to="#">Soma zaidi ...</Link></p>
                                 </div>
                               </div>
                             </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Message from '../../components/Message'
 
 
 function NextProgress() {
@@ -12,7 +13,7 @@ function NextProgress() {
                 <div className="col-md-10 px-0">
                     <h1 className="display-4 fst-italic">Hatua inayofuata</h1>
                     <p className="lead my-3">M
-                    Next step
+                        <Message variant="danger">Taarifa hizi zitawekwa muda mfupi ujao</Message>
                     </p>
                     
                 </div>

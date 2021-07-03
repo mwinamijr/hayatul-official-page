@@ -19,12 +19,11 @@ function SecondaryScreen() {
           </div>
         </div>
           <Row>
-            <Col md={4}>
+            <Col md={6}>
               <Card>
                 <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
                 <Card.Body>
-                <Card.Title>Card title that wraps to a new line</Card.Title>
-                <Card.Text>
+                <Card.Text className="text-center">
                     This is a longer card with supporting text below as a natural lead-in to
                     additional content. This content is a little bit longer.
                 </Card.Text>
@@ -32,7 +31,7 @@ function SecondaryScreen() {
               </Card>
             </Col>
               <hr />
-            <Col md={4}>
+            <Col md={6}>
               <Card>
                 <Card.Body>
                   <Card.Title>Malezi</Card.Title>
@@ -57,7 +56,7 @@ function SecondaryScreen() {
           </Row>
           <hr />
           <Row>
-            <Col md={4}>
+            <Col md={6}>
               <Card>
                 <Card.Body>
                   <Card.Title>Michezo</Card.Title>
@@ -72,12 +71,10 @@ function SecondaryScreen() {
               </Card>
             </Col>
             
-              <Col md={4}>
+              <Col md={6}>
                 <Card>
-                  
                   <Card.Body>
-                  <Card.Title>Card title that wraps to a new line</Card.Title>
-                  <Card.Text>
+                  <Card.Text className="text-center">
                       This is a longer card with supporting text below as a natural lead-in to
                       additional content. This content is a little bit longer.
                   </Card.Text>

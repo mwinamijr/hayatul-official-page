@@ -19,7 +19,7 @@ function NurseryScreen() {
             </div>
           </div>
             <Row>
-                <Col md={4}>
+                <Col md={6}>
                   <Row>
                   <Image src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" fluid />
                   </Row>
@@ -34,7 +34,7 @@ function NurseryScreen() {
                   </Row>
                 </Col>
 
-                <Col md={4}>
+                <Col md={6}>
                   <Card>
                   <Card.Body>
                     <Card.Title>Malezi</Card.Title>
@@ -54,7 +54,7 @@ function NurseryScreen() {
                 </Col>
             </Row>
             <Row>
-              <Col md={4}>
+              <Col md={6}>
               <Card>
                   <Card.Body>
                     <Card.Title>Michezo</Card.Title>
@@ -73,7 +73,7 @@ function NurseryScreen() {
                 </Card>
               </Col>
               <br />
-                <Col md={4}>
+                <Col md={6}>
                 <Row>
                   <Image src="http://127.0.0.1:8000/images/nursery/20201128_091634.jpg" fluid />
                   </Row>
