@@ -14,12 +14,13 @@ function PrimaryScreen() {
               </p>
               <p className="text-white rounded bg-dark">
                 <strong>Lugha yetu kuu ya kufundishia ni <em>Kiswahili</em></strong>
-
+                <h5 className="text-center text-danger">Shule ni ya Bweni na kutwa</h5>
               </p>
           </div>
         </div>
+        
           <Row>
-            <Col>
+            <Col md={4}>
               <Card>
                 <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
                 <Card.Body>
@@ -32,7 +33,7 @@ function PrimaryScreen() {
               </Card>
             </Col>
 
-            <Col>
+            <Col md={4}>
               <Card>
                 <Card.Body>
                   <Card.Title>Malezi</Card.Title>
@@ -57,7 +58,7 @@ function PrimaryScreen() {
           </Row>
           <hr />
           <Row>
-            <Col>
+            <Col md={4}>
               <Card>
                 <Card.Body>
                   <Card.Title>Masomo</Card.Title>
@@ -65,11 +66,14 @@ function PrimaryScreen() {
                       Katika kutoa elimu na ujuzi masomo yote yana umuhimu sawa ili kujenga jamii iliyoelimika na yenye <strong>kumuogopa na Kumcha Mwenyezi Mungu kikweli kweli</strong> <br />
                       Hivyo shule zetu zinafundisha <strong><i>Masomo ya dini</i></strong> kama masomo mengine na kwa kufuata mitaala inayotambuliwa na serikali katika utoaji a elimu.
                   </Card.Text>
+                  <Card.Text className="text-success">
+                    Masomo ya dini yanapewa kipaumbele cha hali ya juu ili kuwaandaa watoto wetu kama raia wema wanaomugopa na kumcha Allah (s.w.)
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
             
-              <Col>
+              <Col md={4}>
                 <Card>
                   
                   <Card.Body>
@@ -79,7 +83,7 @@ function PrimaryScreen() {
                       additional content. This content is a little bit longer.
                   </Card.Text>
                   </Card.Body>
-                  <Card.Img variant="top" src="http://127.0.0.1:8000/media/nursery/20201128_091608.jpg" />
+                  <Card.Img variant="top" src="http://127.0.0.1:8000/images/nursery/20201128_091608.jpg" />
                 </Card>
               </Col>
               
@@ -89,7 +93,7 @@ function PrimaryScreen() {
             <Card.Header>Masomo wanayojifunza</Card.Header>
             <Card.Body>
               <Row>
-                <Col>
+                <Col md={4}>
                   <ol>
                     <li>Elimu ya dini ya Kiislamu</li>
                     <li>Lugha ya Kiarabu</li>
@@ -97,7 +101,7 @@ function PrimaryScreen() {
                     <li>Hifdhul Qur-an</li>
                   </ol>
                 </Col>
-                <Col>
+                <Col md={4}>
                   <ol>
                     <li>Hesabu</li>
                     <li>Sayansi</li>
