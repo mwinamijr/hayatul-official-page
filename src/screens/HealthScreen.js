@@ -86,7 +86,7 @@ function HealthScreen() {
                     Michango yote inayotolewa ili kuchangia ujenzi wa Kituo hiki cha Afya ipo wazi kwa yeyote anayetaka kuona kiasi kilichopatikana na jinsi ambavyo imetumika. <br />
                     <i className="text-success"><small>(Taarifa za fedha zitakuwa zinaboreshwa kila Ijumaa)</small></i>
                   </p>
-                  <Link to="/heal/finance" className="float-right icon-link">
+                  <Link to="/health/finance" className="float-right icon-link">
                     <BsArrowRight />
                     zaidi ...
                   </Link>
@@ -99,7 +99,7 @@ function HealthScreen() {
                   <p className="text-justify">
                     Hapa utapata kuona hali halisi ya ujenzi ilipofikia na maendeleo yanayoendelea katika kipindi cha ujenzi.
                   </p>
-                  <Link to="/heal/progress" className="float-right icon-link">
+                  <Link to="/health/progress" className="float-right icon-link">
                     <BsArrowRight />
                     zaidi ...
                   </Link>
@@ -112,7 +112,7 @@ function HealthScreen() {
                   <p className="text-justify">
                     Ukihitaji kufahamu zaidi hatua inayofuata katika kuendelea na ujenzi au maboresho na utoaji wa huduma, bonyeza hapa chini
                   </p>
-                  <Link to="/heal/next" className="float-right icon-link">
+                  <Link to="/health/next" className="float-right icon-link">
                     <BsArrowRight />
                     zaidi ...
                   </Link>

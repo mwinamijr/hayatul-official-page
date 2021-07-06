@@ -35,7 +35,8 @@ function App() {
           <Route path='/register' component={RegisterScreen} /> {}
           <Route path='/about' component={AboutScreen} /> {}
           <Route path='/services' component={ServicesScreen} /> {}
-          <Route path='/blog' component={BlogScreen} />{}
+          <Route path='/blogu' component={BlogScreen} />{}
+          <Route path='/blog/:id' component={BlogDetailsScreen} />{}
           <Route path='/contact-us' component={ContactScreen} />{}
           <Route path='/gallery' component={GalleryScreen} />{}
           <Route path='/longer-post' component={LongerPost} />{}
@@ -45,10 +46,10 @@ function App() {
           <Route path='/education/primary' component={PrimaryScreen} />{}
           <Route path='/education/secondary' component={SecondaryScreen} />{}
 
-          <Route path='/health' component={HealthScreen} />{}
-          <Route path='/heal/finance' component={Finance} />{}
-          <Route path='/heal/progress' component={ProgressScreen} />{}
-          <Route path='/heal/next' component={NextProgress} />{}
+          <Route path='/health' component={HealthScreen} exact />{}
+          <Route path='/health/finance' component={Finance} />{}
+          <Route path='/health/progress' component={ProgressScreen} />{}
+          <Route path='/health/next' component={NextProgress} />{}
           
         </Container>
       </main>

@@ -55,7 +55,7 @@ function HomeScreen({ history }) {
               <Col md={3} >
                 <Row>
                   <Card style={{ width: '100%' }}>
-                    <Card.Header className="bg-info">Downloads</Card.Header>
+                    <Card.Header className="bg-hayatul">Downloads</Card.Header>
                     
                       <ul class="list-group">
                         <li class="list-group-item">Fomu ya kujiunga bweni (Msingi)</li>
@@ -68,7 +68,7 @@ function HomeScreen({ history }) {
                 <br />
                 <Row>
                   <Card style={{ width: '100%' }}>
-                    <Card.Header className="bg-info">News</Card.Header>
+                    <Card.Header className="bg-hayatul">News</Card.Header>
                     
                       <ul class="list-group">
                         <li class="list-group-item">Matokeo CSEE 2020</li>

@@ -49,7 +49,7 @@ function Header() {
                                     <LinkContainer to='/health'>
                                         <Nav.Link>Afya</Nav.Link>
                                     </LinkContainer>
-                                    <LinkContainer to='/blog'>
+                                    <LinkContainer to='/blogu'>
                                         <Nav.Link>Blogu</Nav.Link>
                                     </LinkContainer>
                                     <LinkContainer to='/gallery'>

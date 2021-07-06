@@ -96,4 +96,11 @@
   .blog-footer p:last-child {
     margin-bottom: 0;
   }
-  
+
+.bg-hayatul {
+  background-color: #3B8FBF;
+}
+
+#footer-link {
+  color: white;
+}

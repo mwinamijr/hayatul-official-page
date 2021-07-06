@@ -12,7 +12,7 @@ function NextProgress() {
                 <div className="col-md-1"></div>
                 <div className="col-md-10 px-0">
                     <h1 className="display-4 fst-italic">Hatua inayofuata</h1>
-                    <p className="lead my-3">M
+                    <p className="lead my-3">
                         <Message variant="danger">Taarifa hizi zitawekwa muda mfupi ujao</Message>
                     </p>
                     

@@ -22,12 +22,13 @@ import {
 const reducer = combineReducers({
     articleList: articlesListReducer,
     articleDetails: articlesDetailsReducer,
+    userLogin: userLoginReducer,
+    
     /*
     articleDelete: articlesDeleteReducer,
     articleCreate: articlesCreateReducer,
     articleUpdate: articlesUpdateReducer,
 
-    userLogin: userLoginReducer,
     userRegister: userRegisterReducer,
     userDetails: userDetailsReducer,
     userUpdateProfile: userUpdateProfileReducer,
@@ -35,6 +36,7 @@ const reducer = combineReducers({
     userDelete: userDeleteReducer,
     userUpdate: userUpdateReducer,
 
+    
     orderCreate: orderCreateReducer,
     orderDetails: orderDetailsReducer,
     orderPay: orderPayReducer,
