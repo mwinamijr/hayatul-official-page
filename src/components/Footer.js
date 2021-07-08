@@ -36,7 +36,7 @@ function Footer({ location, history }) {
                   <Col md={4} className="mt-2">
                     <h6 className="text-white text-center">Links</h6>
                     <ul>
-                      <Button variant="light" block>HISMS</Button>
+                      <Button variant="light" block><Link to="/login">HISMS</Link></Button>
                       <Button variant="light" block>Learn with Us!</Button>
                       <Button variant="light" block>Tafsiri ya Qur-an</Button>
                     </ul>
