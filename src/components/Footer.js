@@ -14,18 +14,17 @@ function Footer({ location, history }) {
 
     const userLogin = useSelector(state => state.userLogin)
     const { error, loading, userInfo} = userLogin
-
+    
+    
     useEffect(() => {
       if (userInfo) {
         history.push(redirect)
       }
     }, [history, userInfo, redirect])
-    
     const submitHandler = (e) => {
       e.preventDefault()
       dispatch(login(email, password))
     }
-
 
 
     return (
@@ -45,9 +44,15 @@ function Footer({ location, history }) {
                   <Col md={4} className="mt-2">
                   <h6 className="text-white text-center">Useful Links</h6>
                     <ul>
-                      <Button variant="light" block><Link to="https://www.necta.go.tz">Necta</Link></Button>
-                      <Button variant="light" block><Link to="https://www.nacte.go.tz">Nacte</Link></Button>
-                      <Button variant="light" block><Link to="https://www.moe.go.tz">MoE</Link></Button>
+                      <li className="mb-2">
+                      <a target="_blank" href="https://www.necta.go.tz"><Button variant="light" block>Necta</Button></a>
+                      </li>
+                      <li className="mb-2">
+                      <a target="_blank" href="https://www.nacte.go.tz"><Button variant="light" block>Nacte</Button></a>
+                      </li>
+                      <li className="mb-2">
+                      <a target="_blank" href="https://www.moe.go.tz"><Button variant="light" block>MoE</Button></a>
+                      </li>
                     </ul>
                   </Col>
                   <Col md={4} className="mt-2">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col, Card, Carousel } from 'react-bootstrap'
+import { Row, Col, Card, Button, Carousel } from 'react-bootstrap'
 import HomeCarousel from '../components/Carousel'
 
 
@@ -71,10 +71,10 @@ function HomeScreen({ history }) {
                     <Card.Header className="bg-hayatul">News</Card.Header>
                     
                       <ul class="list-group">
-                        <li class="list-group-item">Matokeo CSEE 2020</li>
-                        <li class="list-group-item">Matokeo FTNA 2020</li>
-                        <li class="list-group-item">Matokeo PSLE 2020</li>
-                        <li class="list-group-item">Matokeo Mock Kidato cha 6</li>
+                        <li class="list-group-item"><a target="_blank" href="https://matokeo.necta.go.tz/2021/acsee/results/s4875.htm"><Button variant="light" block>Matokeo Form VI - 2021</Button></a></li>
+                        <li class="list-group-item"><a target="_blank" href="https://onlinesys.necta.go.tz/results/2020/csee/results/s4875.htm"><Button variant="light" block>Matokeo Form IV - 2020</Button></a></li>
+                        <li class="list-group-item"><a target="_blank" href="https://onlinesys.necta.go.tz/results/2020/ftna/results/S4875.htm"><Button variant="light" block>Matokeo Form II - 2020</Button></a></li>
+                        <li class="list-group-item"><a target="_blank" href="https://onlinesys.necta.go.tz/results/2020/psle/results/shl_ps2106008.htm"><Button variant="light" block>Matokeo STD VII - 2020</Button></a></li>
                       </ul>
                   </Card>
                 </Row>
