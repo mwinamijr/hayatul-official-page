@@ -49,7 +49,7 @@ export const login = (email, password) => async (dispatch) => {
         }
 
         const { data } = await axios.post(
-            'http://127.0.0.1:8000/api/users/login/',
+            'https://www.hayatul.herokuapp.com/api/users/login/',
             { 'username': email, 'password': password },
             config
         )
