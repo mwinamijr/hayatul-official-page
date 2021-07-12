@@ -27,7 +27,7 @@ export const listArticles = (keyword = '') => async (dispatch) => {
     try {
         dispatch({ type: ARTICLES_LIST_REQUEST })
 
-        const { data } = await axios.get('http://127.0.0.1:8000/api/blog/articles')
+        const { data } = await axios.get('https://www.hayatul.herokuapp.com/api/blog/articles')
         
         dispatch({
             type: ARTICLES_LIST_SUCCESS,
@@ -50,7 +50,7 @@ export const listArticleDetails = (id) => async (dispatch) => {
     try {
         dispatch({ type: ARTICLES_DETAILS_REQUEST })
 
-        const { data } = await axios.get(`http://127.0.0.1:8000/api/administration/articles/${id}`)
+        const { data } = await axios.get(`https://www.hayatul.herokuapp.com/api/administration/articles/${id}`)
 
         dispatch({
             type: ARTICLES_DETAILS_SUCCESS,
