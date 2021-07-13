@@ -35,8 +35,11 @@ function BlogScreen({ history, match }) {
               <div>
                 <div className="row p-4 p-md-5 mb-4 text-white rounded bg-dark">
                   <div className="col-md-6 px-0">
-                    <h1 className="display-4 fst-italic">Title of a longer featured blog post</h1>
-                    <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+                    <h1 className="display-4 fst-italic">Mpango kazi wa Hayatul Islamiya Complex hadi 2050</h1>
+                    <p className="lead my-3">
+                      <b>"Alhamdulillah, tunasonga mbele"</b> kwa neema zake Allah (S.W) kwani katika safari yetu hii ya kuihudumia jamii tunaendelea kupiga hatua kila siku 
+                      kuelekea katika malengo ya <i>kuumbwa kwetu<b>(Qur-an 51:56)</b></i> ...
+                    </p>
                     <p className="lead mb-0"><Link to="/longer-post/"   className="text-white fw-bold">Soma zaidi...</Link></p>
                   </div>
                   <div className="col-md-5 px-o">
@@ -66,9 +69,10 @@ function BlogScreen({ history, match }) {
                     <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                       <div className="col p-4 d-flex flex-column position-static">
                         <strong className="d-inline-block mb-2 text-success">Afya</strong>
-                        <h3 className="mb-0">Ujenzi wa zahanati</h3>
-                        <div className="mb-1 text-muted">Nov 11, 2020</div>
-                        <p className="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <h3 className="mb-0">Hayatul Islamiya Health Center</h3>
+                        <div className="mb-1 text-muted">May 11, 2021</div>
+                        <p className="mb-auto">Ujenzi wa Kituo cha Afya Hayatul Islamiya Complex umeshika kasi ...
+                      </p>
                         <Link to="/health-program/"   className="stretched-link">Soma zaidi ...</Link>
                       </div>
                       <div className="col-auto d-none d-lg-block">
@@ -158,10 +162,10 @@ function BlogScreen({ history, match }) {
                       <div className="p-4">
                         <h4 className="fst-italic">Elsewhere</h4>
                         <ol className="list-unstyled">
-                          <li><Link to="#">Youtube</Link></li>
-                          <li><Link to="#">Instagram</Link></li>
-                          <li><Link to="#">Twitter</Link></li>
-                          <li><Link to="#">Facebook</Link></li>
+                          <li><a href="https://youtube.com/hayatulislamiya" target="_blank">Youtube</a></li>
+                          <li><a href="https://facebook.com/hayatulislamiya" target="_blank">Facebook</a></li>
+                          <li><a href="https://instagram.com/hayatulislamiya" target="_blank">Instagram</a></li>
+                          <li><a href="https://twitter.com/hayatulislamiya" target="_blank">Twitter</a></li>
                         </ol>
                       </div>
                     </div>
