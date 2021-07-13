@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Table } from 'react-bootstrap'
+import { Table, Row, Col, Card } from 'react-bootstrap'
 
 function LongerPost() {
     return (
@@ -14,11 +14,24 @@ function LongerPost() {
                     <p className="lead my-3"><b>"Alhamdulillah, tunasonga mbele"</b> kwa neema zake Allah (S.W) kwani katika safari yetu hii ya kuihudumia jamii tunaendelea kupiga hatua kila siku 
                       kuelekea katika malengo ya <i>kuumbwa kwetu<b>(Qur-an 51:56)</b></i>. 
                       </p>
+                      <Row>
+                      <Col md={6}>
+                        <Card>
+                            <Card.Img variant="top" src="images/secondary002.png" />
+                        </Card>
+                        </Col>
+                        <Col md={6}>
+                        <Card>
+                            <Card.Img variant="top" src="images/secondary004.png" />
+                            
+                        </Card>
+                        </Col>
+                      </Row>
                       <p>
                       <h4>Jiunge Nasi</h4>
                       katika kuihudumia jamii wanataasisi na wanajumiya ya Hayatul Islamiya Complex wanajitolea mali zao, nguvu zao na Afya zao katika kuiendeleza mbele dini ya Allah(S.W.) 
                       huku tukitaraji malipo makubwa mbele yake siku mwisho Inshaallah.
-                      <br /><a href="#">Bonyeza hapa Kwa maelezo zaidi jinsi ya kujiunga na Jumuiya ya Hayatul Islamiya</a>
+                      <br /><a href="jiunge-hic">Bonyeza hapa Kwa maelezo zaidi jinsi ya kujiunga na Jumuiya ya Hayatul Islamiya</a>
                     </p>
                     <h4>Mikakati yetu (tulipotoka na Tunapoelekea)</h4>
                     <Table striped bordered hover>
@@ -86,6 +99,11 @@ function LongerPost() {
                     
                 </div>
             </div>
+            <h3 className="text-center">
+              Changia ujenzi wa Hayatul Islamiya Complex Health Cente: <br />
+              <span className="text-center text-info">    BENKI NBC: 072206006583 JINA: UJENZI WA KITUO CHA AFYA HIC;   </span> <br />
+              <span className="text-warning">    Halo Pesa: 0622 977 536  Jina: Husseni Mwinami</span>
+              </h3>
             </div>
         </div>
     )

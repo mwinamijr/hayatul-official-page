@@ -39,7 +39,7 @@ function AboutScreen() {
                 Baraza Kuu la Waislamu Tanzania (BAKWATA) 
               </Card.Text>
 
-              <Card.Title>Kujiunga</Card.Title>
+              <Card.Title id="jiunge-hic">Kujiunga</Card.Title>
               <Card.Text>
                 Ni rahisi sana kujiunga na kuwa mwanajumuiya wa Hayatul Islamiya Complex kwani kuna masharti machache na ya kawaida sana kwa anayetaka kujiunga. 
                 Masharti hayo ni kama ifuatavyo:-
