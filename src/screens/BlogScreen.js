@@ -40,7 +40,7 @@ function BlogScreen({ history, match }) {
                     <p className="lead mb-0"><Link to="/longer-post/"   className="text-white fw-bold">Soma zaidi...</Link></p>
                   </div>
                   <div className="col-md-5 px-o">
-                  <Image src="images/hic-logo.png" alt="hayatul complex logo" className="float-right" width="300" thumbnail />
+                  <Image src="hic-logo.png" alt="hayatul complex logo" className="float-right" width="300" thumbnail />
                   </div>
                 </div>
 
@@ -56,7 +56,7 @@ function BlogScreen({ history, match }) {
                       </div>
                       <div className="col-auto d-none d-lg-block">
                         <div className="row">
-                        <Image src="images/hic-logo.png" alt="hayatul complex logo" width="150" thumbnail /> 
+                        <Image src="hic-logo.png" alt="hayatul complex logo" width="150" thumbnail /> 
                         </div>
 
                       </div>
@@ -73,7 +73,7 @@ function BlogScreen({ history, match }) {
                       </div>
                       <div className="col-auto d-none d-lg-block">
                       <div className="row">
-                        <Image src="images/hic-logo-2.png" alt="hayatul complex logo" width="150" thumbnail /> 
+                        <Image src="hic-logo.png" alt="hayatul complex logo" width="150" thumbnail /> 
                         </div>
                       </div>
                     </div>
