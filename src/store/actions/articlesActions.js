@@ -27,7 +27,7 @@ export const listArticles = (keyword = '') => async (dispatch) => {
     try {
         dispatch({ type: ARTICLES_LIST_REQUEST })
 
-        const { data } = await axios.get('https://www.hayatul.herokuapp.com/api/blog/articles')
+        const { data } = await axios.get('https://hayatul.herokuapp.com/api/blog/articles')
         
         dispatch({
             type: ARTICLES_LIST_SUCCESS,
@@ -50,7 +50,7 @@ export const listArticleDetails = (id) => async (dispatch) => {
     try {
         dispatch({ type: ARTICLES_DETAILS_REQUEST })
 
-        const { data } = await axios.get(`https://www.hayatul.herokuapp.com/api/administration/articles/${id}`)
+        const { data } = await axios.get(`https://hayatul.herokuapp.com/api/blog/articles/${id}`)
 
         dispatch({
             type: ARTICLES_DETAILS_SUCCESS,
@@ -86,7 +86,7 @@ export const deleteArticle = (id) => async (dispatch, getState) => {
         }
 
         const { data } = await axios.delete(
-            `http://127.0.0.1:8000/api/administration/articles/${id}/`,
+            `https://hayatul.herokuapp.com/api/blog/articles/${id}/`,
             config
         )
 
@@ -126,7 +126,7 @@ export const createArticle = () => async (dispatch, getState) => {
         }
 
         const { data } = await axios.post(
-            `http://127.0.0.1:8000/api/administration/articles`,
+            `https://hayatul.herokuapp.com/api/blog/articles`,
             {},
             config
         )
@@ -166,7 +166,7 @@ export const updateArticle = (article) => async (dispatch, getState) => {
         }
 
         const { data } = await axios.put(
-            `http://127.0.0.1:8000/api/administration/articles/${article.id}/`,
+            `https://hayatul.herokuapp.com/api/blog/articles/${article.id}/`,
             article,
             config
         )
