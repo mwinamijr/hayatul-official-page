@@ -49,49 +49,56 @@ function LongerPost() {
                                 <td>1</td>
                                 <td>Ujenzi wa shule ya sekondari - O-LEVEL</td>
                                 <td>2010 - 2014</td>
-                                <td className="text-muted"><small>cost will be updated</small></td>
-                                <td className='bg-success text-center'>v</td>
+                                <td className="text-muted"><small>895,000,000</small></td>
+                                <td className='bg-success text-center'>done</td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Ujenzi wa shule ya sekondari - A - LEVEL</td>
                                 <td>2015 - 2018</td>
-                                <td className="text-muted"><small>cost will be updated</small></td>
-                                <td className='bg-success text-center'>v</td>  
+                                <td className="text-muted"><small>610,000,000</small></td>
+                                <td className='bg-success text-center'>done</td>  
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Ujenzi wa Nyumba za walimu</td>
                                 <td>2018 - 2020</td>
-                                <td className="text-muted"><small>est will be updated</small></td>
-                                <td className='bg-success text-center'>v</td>
+                                <td className="text-muted"><small>1,000,000,000</small></td>
+                                <td className='bg-warning text-center'>in progress</td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Ujenzi wa Kituo cha Afya</td>
                                 <td>2021 - 2022</td>
-                                <td className="text-muted"><small>est will be updated</small></td>
+                                <td className="text-muted"><small>100,000,000</small></td>
                                 <td className='bg-warning text-center'>v</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>Ujenzi wa Chuo Cha ufundi</td>
+                                <td>Ujenzi wa Chuo Cha ufundi stadi</td>
                                 <td>2013 - 2025</td>
-                                <td className="text-muted"><small>est will be updated</small></td>
+                                <td className="text-muted"><small>550,000,000</small></td>
                                 <td className='bg-danger text-center'>x</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td>Ujenzi wa Chuo Kikuu cha Kiislamu</td>
-                                <td>2030 - 2040</td>
-                                <td className="text-muted"><small>est will be updated</small></td>
+                                <td>Ujenzi wa Chuo Kikuu cha matabibu</td>
+                                <td>2025 - 2030</td>
+                                <td className="text-muted"><small>600,000,000</small></td>
                                 <td className='bg-danger text-center'>x</td>
                             </tr>
                             <tr>
                                 <td>7</td>
-                                <td>Ujenzi wa Hospitali Kubwa</td>
+                                <td>Ujenzi wa Chuo kikuu cha sayansi</td>
+                                <td>2030 - 2040</td>
+                                <td className="text-muted"><small>2,000,000,000</small></td>
+                                <td className='bg-danger text-center'>x</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ujenzi Hospitali ya kisasa</td>
                                 <td>2040 - 2050</td>
-                                <td className="text-muted"><small>est will be updated</small></td>
+                                <td className="text-muted"><small>5,000,000,000</small></td>
                                 <td className='bg-danger text-center'>x</td>
                             </tr>
                         </tbody>
