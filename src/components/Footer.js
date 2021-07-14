@@ -2,30 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import FormContainer from '../components/FormContainer'
-import { Container, Row, Col, Button, Form } from 'react-bootstrap'
-import { login } from '../store/actions/userActions'
+import { Container, Row, Col, Button, Card } from 'react-bootstrap'
 
-function Footer({ location, history }) {
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-
-    const dispatch = useDispatch()
-    const redirect =  '/'
-
-    const userLogin = useSelector(state => state.userLogin)
-    const { error, loading, userInfo} = userLogin
-    
-    
-    useEffect(() => {
-      if (userInfo) {
-        history.push(redirect)
-      }
-    }, [history, userInfo, redirect])
-    const submitHandler = (e) => {
-      e.preventDefault()
-      dispatch(login(email, password))
-    }
-
+function Footer() {
 
     return (
         <footer className="bg-hayatul">
@@ -38,6 +17,7 @@ function Footer({ location, history }) {
                       <Button variant="light" block><Link to="/login">HISMS</Link></Button>
                       <Button variant="light" block>Learn with Us!</Button>
                       <Button variant="light" block>Tafsiri ya Qur-an</Button>
+                      <Button variant="light" block>Technology</Button>
                     </ul>
                   </Col>
                   
@@ -53,38 +33,22 @@ function Footer({ location, history }) {
                       <li className="mb-2">
                       <a target="_blank" rel="noreferrer" href="https://www.moe.go.tz"><Button variant="light" block>MoE</Button></a>
                       </li>
+                      <li className="mb-2">
+                      <a target="_blank" rel="noreferrer" href="https://www.moh.go.tz"><Button variant="light" block>MoH</Button></a>
+                      </li>
                     </ul>
                   </Col>
                   <Col md={4} className="mt-2">
-                  <h6 className="text-white text-center">Login</h6>
-                  <FormContainer> 
-                    <Form onSubmit={submitHandler}>
+                    <div>
 
-                      <Form.Group controlId='email'>
-                          <Form.Control
-                              type='email'
-                              placeholder='Enter Email'
-                              value={email}
-                              onChange={(e) => setEmail(e.target.value)}
-                              required
-                          >
-                          </Form.Control>
-                      </Form.Group>
-
-
-                      <Form.Group controlId='password'>
-                          <Form.Control
-                              type='password'
-                              placeholder='Enter Password'
-                              value={password}
-                              onChange={(e) => setPassword(e.target.value)}
-                              
-                          >
-                          </Form.Control>
-                      </Form.Group>
-                      <Button type="submit" variant="light" block>Login</Button>
-                    </Form>
-                  </FormContainer>
+                      <h6 className="text-white text-center">Follow Us!</h6>
+                      <ol className="list-unstyled">
+                        <li className="mb-2"><a href="https://youtube.com/hayatulislamiya" target="_blank" rel="noreferrer"><Button variant="light" block>Youtube</Button></a></li>
+                        <li className="mb-2"><a href="https://facebook.com/hayatulislamiya" target="_blank" rel="noreferrer"><Button variant="light" block>Facebook</Button></a></li>
+                        <li className="mb-2"><a href="https://instagram.com/hayatulislamiya" target="_blank" rel="noreferrer"><Button variant="light" block>Instagram</Button></a></li>
+                        <li className="mb-2"><a href="https://twitter.com/hayatulislamiya" target="_blank" rel="noreferrer"><Button variant="light" block>Twitter</Button></a></li>
+                      </ol>
+                    </div>
                   </Col>
                 </Row>
                 <Row>
