@@ -25,10 +25,17 @@ function BlogDetailScreen({ match, history }) {
                 : error
                     ? <Message variant='danger'>{error}</Message>
                     : (
-                      <div className="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-                        <div className="col-md-6 px-0">
+                      <div className="p-4 p-md-5 mb-4 text-black rounded bg-light">
+                        <div className="col-md-10 px-0">
                           <h1 className="display-4 fst-italic">{ article.title }</h1>
+                          { article.picture ?
+                          <div>
+                            <Image src={ article.picture} alt={ article.title} />
+                            <p className="lead my-3">{ article.content }</p>
+                          </div>
+                          :
                           <p className="lead my-3">{ article.content }</p>
+                          }
                         </div>
                       </div>
                       )}

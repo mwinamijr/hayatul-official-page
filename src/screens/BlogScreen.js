@@ -100,7 +100,7 @@ function BlogScreen({ history, match }) {
                               <div className="col-md-8">
                                 <div className="blog-post">
                                   <h2 className="blog-post-title">{ article.title }</h2>
-                                  <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
+                                  <p className="blog-post-meta">January 1, 2021 by <Link to="#">{ article.created_by }</Link></p>
     
                                   <p>{ article.short_content } <Link to={`/blog/${article.id}`}>Soma zaidi ...</Link></p>
                                 </div>
@@ -118,7 +118,7 @@ function BlogScreen({ history, match }) {
                               <div className="col-md-12">
                                 <div className="blog-post">
                                   <h2 className="blog-post-title">{ article.title }</h2>
-                                  <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
+                                  <p className="blog-post-meta">January 1, 2021 by <Link to="#">{ article.created_by }</Link></p>
     
                                   <p>{ article.content } <Link to={`/blog/${article.id}`}>Soma zaidi ...</Link></p>
                                 </div>
