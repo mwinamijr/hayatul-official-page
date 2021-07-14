@@ -14,9 +14,9 @@ function Footer() {
                   <Col md={4} className="mt-2">
                     <h6 className="text-white text-center">Links</h6>
                     <ul>
-                      <Button variant="light" block><Link to="/login">HISMS</Link></Button>
-                      <Button variant="light" block>Learn with Us!</Button>
-                      <Button variant="light" block>Tafsiri ya Qur-an</Button>
+                      <Button variant="light" block><Link to="/hisms/home">HISMS</Link></Button>
+                      <Button variant="light" block><Link to="/learn">Learn with Us!</Link></Button>
+                      <Button variant="light" block><Link to="/tafasir-quran">Tafsiri ya Qur-an</Link></Button>
                       <Button variant="light" block>Technology</Button>
                     </ul>
                   </Col>

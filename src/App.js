@@ -23,6 +23,9 @@ import Finance from './screens/health/Finance'
 import ProgressScreen from './screens/health/ProgressScreen'
 import NextProgress from './screens/health/NextProgress'
 import GalleryScreen from './screens/GalleryScreen'
+import Dashboard from './screens/hisms/Dashboard'
+
+
 
 function App() {
   return (
@@ -50,6 +53,8 @@ function App() {
           <Route path='/health/finance' component={Finance} />{}
           <Route path='/health/progress' component={ProgressScreen} />{}
           <Route path='/health/next' component={NextProgress} />{}
+
+          <Route path='/hisms/home' component={Dashboard} />{}
           
         </Container>
       </main>
