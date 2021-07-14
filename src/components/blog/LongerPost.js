@@ -95,7 +95,7 @@ function LongerPost() {
                                 <td className='bg-danger text-center'>x</td>
                             </tr>
                             <tr>
-                                <td></td>
+                                <td>8</td>
                                 <td>Ujenzi Hospitali ya kisasa</td>
                                 <td>2040 - 2050</td>
                                 <td className="text-muted"><small>5,000,000,000</small></td>
