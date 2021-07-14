@@ -24,18 +24,18 @@ const reducer = combineReducers({
     articleDetails: articlesDetailsReducer,
     userLogin: userLoginReducer,
     
-    /*
     articleDelete: articlesDeleteReducer,
     articleCreate: articlesCreateReducer,
     articleUpdate: articlesUpdateReducer,
-
+    
     userRegister: userRegisterReducer,
     userDetails: userDetailsReducer,
     userUpdateProfile: userUpdateProfileReducer,
     userList: userListReducer,
     userDelete: userDeleteReducer,
     userUpdate: userUpdateReducer,
-
+    
+    /*
     
     orderCreate: orderCreateReducer,
     orderDetails: orderDetailsReducer,

@@ -45,13 +45,13 @@ function Footer({ location, history }) {
                   <h6 className="text-white text-center">Useful Links</h6>
                     <ul>
                       <li className="mb-2">
-                      <a target="_blank" href="https://www.necta.go.tz"><Button variant="light" block>Necta</Button></a>
+                      <a target="_blank" rel="noreferrer" href="https://www.necta.go.tz"><Button variant="light" block>Necta</Button></a>
                       </li>
                       <li className="mb-2">
-                      <a target="_blank" href="https://www.nacte.go.tz"><Button variant="light" block>Nacte</Button></a>
+                      <a target="_blank" rel="noreferrer" href="https://www.nacte.go.tz"><Button variant="light" block>Nacte</Button></a>
                       </li>
                       <li className="mb-2">
-                      <a target="_blank" href="https://www.moe.go.tz"><Button variant="light" block>MoE</Button></a>
+                      <a target="_blank" rel="noreferrer" href="https://www.moe.go.tz"><Button variant="light" block>MoE</Button></a>
                       </li>
                     </ul>
                   </Col>

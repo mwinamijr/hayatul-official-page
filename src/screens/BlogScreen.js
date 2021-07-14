@@ -162,10 +162,10 @@ function BlogScreen({ history, match }) {
                       <div className="p-4">
                         <h4 className="fst-italic">Elsewhere</h4>
                         <ol className="list-unstyled">
-                          <li><a href="https://youtube.com/hayatulislamiya" target="_blank">Youtube</a></li>
-                          <li><a href="https://facebook.com/hayatulislamiya" target="_blank">Facebook</a></li>
-                          <li><a href="https://instagram.com/hayatulislamiya" target="_blank">Instagram</a></li>
-                          <li><a href="https://twitter.com/hayatulislamiya" target="_blank">Twitter</a></li>
+                          <li><a href="https://youtube.com/hayatulislamiya" target="_blank" rel="noreferrer">Youtube</a></li>
+                          <li><a href="https://facebook.com/hayatulislamiya" target="_blank" rel="noreferrer">Facebook</a></li>
+                          <li><a href="https://instagram.com/hayatulislamiya" target="_blank" rel="noreferrer">Instagram</a></li>
+                          <li><a href="https://twitter.com/hayatulislamiya" target="_blank" rel="noreferrer">Twitter</a></li>
                         </ol>
                       </div>
                     </div>
