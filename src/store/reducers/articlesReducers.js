@@ -46,13 +46,13 @@ export const articlesListReducer = (state = { articles: [] }, action) => {
 
 
 
-export const articlesDetailsReducer = (state = { articles: { reviews: [] } }, action) => {
+export const articlesDetailsReducer = (state = { article: { reviews: [] } }, action) => {
     switch (action.type) {
         case ARTICLES_DETAILS_REQUEST:
             return { loading: true, ...state }
 
         case ARTICLES_DETAILS_SUCCESS:
-            return { loading: false, articles: action.payload }
+            return { loading: false, article: action.payload }
 
         case ARTICLES_DETAILS_FAIL:
             return { loading: false, error: action.payload }

@@ -102,7 +102,7 @@ function BlogScreen({ history, match }) {
                                   <h2 className="blog-post-title">{ article.title }</h2>
                                   <p className="blog-post-meta">January 1, 2021 by <Link to="#">Mark</Link></p>
     
-                                  <p>{ article.content } <Link to={`/blog/${article.id}`}>Soma zaidi ...</Link></p>
+                                  <p>{ article.short_content } <Link to={`/blog/${article.id}`}>Soma zaidi ...</Link></p>
                                 </div>
                               </div>
                               <div className="col-md-4">
