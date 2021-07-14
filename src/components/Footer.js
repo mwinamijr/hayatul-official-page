@@ -16,7 +16,7 @@ function Footer() {
                     <ul>
                       <Button variant="light" block><Link to="/hisms/home">HISMS</Link></Button>
                       <Button variant="light" block><Link to="/learn">Learn with Us!</Link></Button>
-                      <Button variant="light" block><Link to="/tafasir-quran">Tafsiri ya Qur-an</Link></Button>
+                      <Button variant="light" block><Link to="/tafsir-quran">Tafsiri ya Qur-an</Link></Button>
                       <Button variant="light" block>Technology</Button>
                     </ul>
                   </Col>
