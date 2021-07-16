@@ -71,7 +71,7 @@ function LongerPost() {
                                 <td>Ujenzi wa Kituo cha Afya</td>
                                 <td>2021 - 2022</td>
                                 <td className="text-muted"><small>100,000,000</small></td>
-                                <td className='bg-warning text-center'>v</td>
+                                <td className='bg-warning text-center'>in progress</td>
                             </tr>
                             <tr>
                                 <td>5</td>

@@ -25,10 +25,13 @@ import NextProgress from './screens/health/NextProgress'
 import GalleryScreen from './screens/GalleryScreen'
 import Dashboard from './screens/hisms/Dashboard'
 import Tafsiri from './screens/quran/Tafsiri'
+import SideBar from './screens/hisms/Sidebar'
 
 
 
 function App() {
+  
+
   return (
     <Router>
       <Header />
@@ -55,10 +58,10 @@ function App() {
           <Route path='/health/progress' component={ProgressScreen} />{}
           <Route path='/health/next' component={NextProgress} />{}
 
-          <Route path='/hisms/home' component={Dashboard} />{}
-          <Route path='/tafsir-quran' component={Tafsiri} />{}
           
         </Container>
+          <Route path='/hisms/home' component={SideBar} />{}
+          <Route path='/tafsir-quran' component={Tafsiri} />{}
       </main>
       <Footer />
     </Router>
