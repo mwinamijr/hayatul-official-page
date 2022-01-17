@@ -72,9 +72,9 @@ function HomeScreen({ history }) {
                     
                       <ul className="list-group">
                         <li className="list-group-item"><a target="_blank" rel="noreferrer" href="https://matokeo.necta.go.tz/2021/acsee/results/s4875.htm"><Button variant="light" block>Matokeo Form VI - 2021</Button></a></li>
-                        <li className="list-group-item"><a target="_blank" rel="noreferrer" href="https://onlinesys.necta.go.tz/results/2020/csee/results/s4875.htm"><Button variant="light" block>Matokeo Form IV - 2020</Button></a></li>
-                        <li className="list-group-item"><a target="_blank" rel="noreferrer" href="https://onlinesys.necta.go.tz/results/2020/ftna/results/S4875.htm"><Button variant="light" block>Matokeo Form II - 2020</Button></a></li>
-                        <li className="list-group-item"><a target="_blank" rel="noreferrer" href="https://onlinesys.necta.go.tz/results/2020/psle/results/shl_ps2106008.htm"><Button variant="light" block>Matokeo STD VII - 2020</Button></a></li>
+                        <li className="list-group-item"><a target="_blank" rel="noreferrer" href="https://matokeo.necta.go.tz/results2021/csee/results/s4875.htm"><Button variant="light" block>Matokeo Form IV - 2021</Button></a></li>
+                        <li className="list-group-item"><a target="_blank" rel="noreferrer" href="https://matokeo.necta.go.tz/results2021/ftna/S4875.htm"><Button variant="light" block>Matokeo Form II - 2021</Button></a></li>
+                        <li className="list-group-item"><a target="_blank" rel="noreferrer" href="https://matokeo.necta.go.tz/psle/results/shl_ps2106008.htm"><Button variant="light" block>Matokeo STD VII - 2021</Button></a></li>
                       </ul>
                   </Card>
                 </Row>
