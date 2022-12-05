@@ -34,16 +34,6 @@ const reducer = combineReducers({
     userList: userListReducer,
     userDelete: userDeleteReducer,
     userUpdate: userUpdateReducer,
-    
-    /*
-    
-    orderCreate: orderCreateReducer,
-    orderDetails: orderDetailsReducer,
-    orderPay: orderPayReducer,
-    orderListMy: orderListMyReducer,
-    orderList: orderListReducer,
-    orderDeliver: orderDeliverReducer,
-    */
 })
 
 
@@ -59,9 +49,7 @@ const shippingAddressFromStorage = localStorage.getItem('shippingAddress') ?
 
 */
 const initialState = {
-    articles: {
-        articlesList: ArticlesListFromStorage,
-    },
+    articles: { articlesList: ArticlesListFromStorage },
     userLogin: { userInfo: userInfoFromStorage },
 }
 
